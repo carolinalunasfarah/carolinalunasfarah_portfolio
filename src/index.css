@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --font-title: "Courgette", cursive;
+    --font-default: "Montserrat", sans-serif;
+
+    --color-blue: #72cef2;
+    --color-green: #9af26b;
+    --color-purple: #a66ff2;
+    --color-lightorange: #F4C485;
+    --color-orange: #f2b667;
+    --color-gray: #565354;
+    --color-burgundydark: #532424;
+    --color-graylight: #dee2e6;
+    --color-purpledark: #34234d;
+    --color-greendark: #314d22;
+    --color-bluedark: #24414d;
+    --color-purplemedium: #553980;
+    --color-orangemedium: #a07031;
+    --color-greenmedium: #518038;
+    --color-bluemedium: #3c6b80;
+    --color-burgundy: #833939;
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+body {
+    font-family: var(--font-default);
+}
+
+.title {
+    font-family: var(--font-title);
+}
+
+.text-purple {
+    color: var(--color-purplemedium);
+}
+
+.loading {
+    animation: spin 2s linear infinite;
+}
+@keyframes spin { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
