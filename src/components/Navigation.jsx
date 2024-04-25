@@ -5,8 +5,8 @@ const Navigation = () => {
     return (
         <>
             <nav className="bg-primary sticky-top">
-                <section href="/">
-                    <NavLink className={activeClass} to="/">
+                <section>
+                    <NavLink className="active" to="/">
                         CAROLINA LUNAS FARAH
                     </NavLink>
                 </section>
