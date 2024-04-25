@@ -1,12 +1,23 @@
 import { Route, Routes } from "react-router-dom";
-import { useState } from "react";
 
 import "./App.css";
 
-function App() {
-    const [count, setCount] = useState(0);
+// views
+import Home from "./views/Home";
 
-    return <></>;
+// components
+import Navigation from "./components/Navigation";
+
+function App() {
+    return (
+        <>
+            <Navigation />
+
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+        </>
+    );
 }
 
 export default App;
