@@ -11,11 +11,11 @@ const Navigation = () => {
                     </NavLink>
                 </section>
                 <section className="justify-content-end align-items-center">
-                    <NavLink className={activeClass} to="/about">
-                        Acerca de mi
-                    </NavLink>
                     <NavLink className={activeClass} to="/works">
                         Trabajos
+                    </NavLink>
+                    <NavLink className={activeClass} to="/hobbies">
+                        Hobbies
                     </NavLink>
                     <NavLink className={activeClass} to="/contact">
                         Contacto

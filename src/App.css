@@ -20,7 +20,7 @@ nav {
 
 .active,
 .inactive {
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 1rem;
     color: var(--color-gray);
     font-weight: 500;
@@ -29,4 +29,17 @@ nav {
 .active {
     color: var(--color-white);
     font-weight: 600;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.8rem;
+}
+
+i {
+    font-size: 2rem;
+    margin-right: 2rem;
 }
