@@ -11,6 +11,8 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Contact from "./views/Contact";
 import About from "./views/About";
+import Hobbies from "./views/Hobbies";
+import Works from "./views/Works";
 
 function App() {
     return (
@@ -21,6 +23,8 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/works" element={<Works />} />
+                <Route path="/hobbies" element={<Hobbies />} />
             </Routes>
 
             <Footer />
