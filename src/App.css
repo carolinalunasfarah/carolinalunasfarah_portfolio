@@ -7,6 +7,21 @@ a {
     text-decoration: none;
 }
 
+strong {
+  color: var(--color-purple);
+}
+
+/* Navigation Breadcrumb */
+.navigation-breadcrumb {
+  height: 1rem;
+}
+
+.breadcrumb-inactive a,
+.breadcrumb-active a {
+    color: var(--color-gray);
+    text-decoration: none;
+    font-size: 14px;
+}
 
 /* Navigation */
 nav {
@@ -22,9 +37,9 @@ nav i {
 }
 
 .list-elements {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .active,
@@ -45,53 +60,58 @@ nav i {
 }
 
 .works-dropdown {
-  display: flex;
-  align-items: center;
-  font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
 }
 
 /* Home */
 header {
-  background-image: url("/public/assets/img/bg-header.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 28rem;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    background-image: url("/public/assets/img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 28rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-texts {
-  font-size: 30px;
-  font-weight: 900;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .header-title {
-  margin: 0rem 0rem 2rem 0rem;
-  font-size: 60px;
+    margin: 0rem 0rem 2rem 0rem;
+    font-size: 60px;
 }
 
 /* About */
 .about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .about-title {
-  font-size: 60px;
-  color: var(--color-purple);
+    font-size: 60px;
+    color: var(--color-purple);
 }
 
 .about-row {
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.about-text {
+  line-height: 1.8;
+  font-size: 20px;
 }
 
 /* Footer */
