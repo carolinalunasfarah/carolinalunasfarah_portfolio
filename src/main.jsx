@@ -4,13 +4,18 @@ import { BrowserRouter } from "react-router-dom";
 
 import App from "./App.jsx";
 
+// provider
+import DataProvider from "./context/DataContext.jsx";
+
 // style
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <BrowserRouter>
-            <App />
+            <DataProvider>
+                <App />
+            </DataProvider>
         </BrowserRouter>
     </React.StrictMode>
 );

@@ -1,6 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import NavigationBreadcrumb from "../components/NavigationBreadcrumb";
+import FsCarousel from "../components/FsCarousel";
 
 const Works = () => {
+    const navigate = useNavigate();
+
     return (
         <>
             <section className="px-5 pt-4">
@@ -14,6 +18,10 @@ const Works = () => {
                             text: "Trabajos",
                         },
                     ]}></NavigationBreadcrumb>
+            </section>
+            <section>
+                {" "}
+                <FsCarousel />{" "}
             </section>
         </>
     );
