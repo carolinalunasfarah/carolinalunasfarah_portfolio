@@ -13,7 +13,8 @@ import Contact from "./views/Contact";
 import About from "./views/About";
 import Hobbies from "./views/Hobbies";
 import Works from "./views/Works";
-import FsCarousel from "./components/FsCarousel";
+import FsSlider from "./components/FsSlider";
+import ArchSlider from "./components/ArchSlider";
 
 function App() {
     return (
@@ -26,8 +27,8 @@ function App() {
                 <Route path="/about" element={<About />} />
 
                 <Route path="/works" element={<Works />} />
-                <Route path="/works/architecture" element={<FsCarousel />} />
-                <Route path="/works/fullstack" element={<FsCarousel />} />
+                <Route path="/works/architecture" element={<ArchSlider />} />
+                <Route path="/works/fullstack" element={<FsSlider />} />
 
                 <Route path="/hobbies" element={<Hobbies />} />
             </Routes>

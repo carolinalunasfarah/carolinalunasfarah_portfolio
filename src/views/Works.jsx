@@ -8,6 +8,10 @@ const Works = () => {
         navigate("/works/fullstack");
     };
 
+    const handleClickArch = () => {
+        navigate("/works/architecture");
+    };
+
     return (
         <>
             <section className="px-5 pt-4">
@@ -34,7 +38,7 @@ const Works = () => {
                         dolore!
                     </p>
                     <button
-                        onClick={handleClickFs}
+                        onClick={handleClickArch}
                         className="btn btn-secondary box-shadow text-white cursor-pointer"
                         aria-label="Ver Portafolio Arquitectura">
                         Portafolio Arquitectura
