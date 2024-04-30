@@ -1,13 +1,8 @@
-// import { useContext } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import NavigationBreadcrumb from "../components/NavigationBreadcrumb";
-import { FullstackData } from "../../public/data/FullstackProjects.jsx";
-
-// context
-// import { DataContext } from "../context/DataContext";
+import { FullstackData } from "./../data/FullstackProjects.jsx";
 
 const FsCarousel = () => {
-    // const { fsData } = useContext(DataContext);
     const data = FullstackData;
 
     return (

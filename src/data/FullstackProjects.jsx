@@ -12,7 +12,7 @@ export const FullstackData = [
       name: "Happy Cake Frontend",
       description: "a",
       alt: "Happy Cake Frontend website image",
-      image_src: "public/assets/img/fullstack-img/frontend-happy-cake.jpg",
+      image_src: "/assets/img/fullstack-img/frontend-happy-cake.jpg",
       website_url: "https://clf-happy-cake.netlify.app/"
   },
   {
@@ -28,7 +28,7 @@ export const FullstackData = [
       name: "Pizza Mamma Mia Frontend",
       description: "",
       alt: "Pizza Mamma Mia Frontend website image",
-      image_src: "public/assets/img/fullstack-img/frontend-pizza-mamma-mia.jpg",
+      image_src: "/assets/img/fullstack-img/frontend-pizza-mamma-mia.jpg",
       website_url: "https://clf-pizza-mamma-mia.netlify.app/"
   },
   {
@@ -36,7 +36,7 @@ export const FullstackData = [
       name: "Marketplace Frontend",
       description: "",
       alt: "Marketplace Frontend website image",
-      image_src: "public/assets/img/fullstack-img/frontend-marketplace.jpg",
+      image_src: "/assets/img/fullstack-img/frontend-marketplace.jpg",
       website_url: "https://mimarketlatino.netlify.app/"
   },
   {
@@ -44,7 +44,7 @@ export const FullstackData = [
       name: "Marketplace Backend",
       description: "",
       alt: "Marketplace Backend website image",
-      image_src: "public/assets/img/fullstack-img/backend-marketplace.jpg",
+      image_src: "/assets/img/fullstack-img/backend-marketplace.jpg",
       website_url: "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs/"
   }
 ]
