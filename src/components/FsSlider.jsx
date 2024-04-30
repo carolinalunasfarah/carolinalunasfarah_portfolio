@@ -15,6 +15,10 @@ import { FullstackData } from "../data/FsProjects.jsx";
 const FsSlider = () => {
     const fsData = FullstackData;
 
+    const handleClick = (url) => {
+        window.open(url, "_blank");
+    };
+
     return (
         <>
             <section className="px-5 pt-4">
@@ -42,19 +46,26 @@ const FsSlider = () => {
                 }}
                 navigation={true}
                 modules={[Pagination, Navigation]}
-                className="slider">
+                className="px-4 m-4">
                 {fsData.map((fsProject, index) => (
                     <SwiperSlide key={index}>
                         <section className="d-flex justify-content-center">
                             <img
                                 src={fsProject.image_src}
                                 alt={fsProject.alt}
+                                className="sliderImage"
                             />
                         </section>
-                        <section className="py-3">
+                        <section className="py-3 mb-5 fsSlider_body">
                             <h3>{fsProject.name}</h3>
                             <p>{fsProject.description}</p>
-                            <button>{fsProject.website_url}</button>
+                            <button
+                                onClick={() =>
+                                    handleClick(fsProject.website_url)
+                                }
+                                className="btn btn-primary cursor-pointer">
+                                <span>{fsProject.name}</span>
+                            </button>
                         </section>
                     </SwiperSlide>
                 ))}

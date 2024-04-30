@@ -3,12 +3,32 @@
     color: var(--color-gray);
 }
 
-a {
+a,
+.fsSlider_body a {
     text-decoration: none;
 }
 
 strong {
     color: var(--color-purple);
+}
+
+.btn-primary {
+    background-color: var(--color-gray) !important;
+    border-color: var(--color-gray) !important;
+    height: 2.8rem;
+}
+
+.btn-primary span {
+    font-size: 18px;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-purple) !important;
+    border-color: var(--color-purple) !important;
+    transition: ease 1s;
+    transform: scale(1.05);
+    font-weight: 600;
 }
 
 /* Navigation Breadcrumb */
@@ -122,25 +142,37 @@ header {
 
 /* Works */
 .works {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .works p {
-  width: 80%;
+    width: 80%;
 }
 
 .works_icons {
-  font-size: 90px;
-  color: var(--color-purple);
+    font-size: 90px;
+    color: var(--color-purple);
 }
 
 /* Slider */
+
+.sliderImage {
+    width: 50%;
+}
+
 .swiper-button-prev,
 .swiper-button-next {
     color: var(--color-purple) !important;
+}
+
+.fsSlider_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */

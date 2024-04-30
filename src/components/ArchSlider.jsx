@@ -42,23 +42,19 @@ const ArchSlider = () => {
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="slider">
-                {archData.map((yearData, index) => (
-                    <section key={index}>
-                        {yearData.projects.map((archProject, projectIndex) => (
-                            <SwiperSlide key={projectIndex}>
-                                <section className="d-flex justify-content-center">
-                                    <img
-                                        src={archProject.image_src}
-                                        alt={archProject.name}
-                                    />
-                                </section>
-                                <section className="py-3">
-                                    <h3>{archProject.name}</h3>
-                                    <p>{archProject.description}</p>
-                                </section>
-                            </SwiperSlide>
-                        ))}
-                    </section>
+                {archData.map((archProject, index) => (
+                    <SwiperSlide key={index}>
+                        <section className="d-flex justify-content-center">
+                            <img
+                                src={archProject.image_src}
+                                alt={archProject.name}
+                            />
+                        </section>
+                        <section className="py-3">
+                            <h3>{archProject.name}</h3>
+                            <p>{archProject.description}</p>
+                        </section>
+                    </SwiperSlide>
                 ))}
             </Swiper>
         </>

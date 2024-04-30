@@ -31,17 +31,16 @@ const Works = () => {
                     <i className="bi bi-boxes works_icons"></i>
                     <h3>Portafolio Arquitectura</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        A corrupti tenetur eum illum placeat perspiciatis sequi
-                        deserunt mollitia, quibusdam aliquid aperiam minima
-                        earum amet explicabo doloribus cumque voluptatem. Ipsum,
-                        dolore!
+                        Aquí podrás revisar algunas imágenes de proyectos que
+                        realicé durante la carrera. Pero si quieres ver el
+                        portafolio completo con mayor detalle, te invito a que
+                        lo descargues en la sección de links.
                     </p>
                     <button
                         onClick={handleClickArch}
-                        className="btn btn-secondary box-shadow text-white cursor-pointer"
+                        className="btn btn-primary cursor-pointer"
                         aria-label="Ver Portafolio Arquitectura">
-                        Portafolio Arquitectura
+                        <span>Portafolio Arquitectura</span>
                     </button>
                 </article>
                 <article className="col works">
@@ -56,9 +55,9 @@ const Works = () => {
                     </p>
                     <button
                         onClick={handleClickFs}
-                        className="btn btn-secondary box-shadow text-white cursor-pointer"
+                        className="btn btn-primary cursor-pointer"
                         aria-label="Ver Portafolio Programación">
-                        Portafolio Programación
+                        <span>Portafolio Programación</span>
                     </button>
                 </article>
             </section>
