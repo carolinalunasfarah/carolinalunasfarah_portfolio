@@ -120,6 +120,59 @@ header {
     font-size: 20px;
 }
 
+/* Works */
+.works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.works p {
+  width: 80%;
+}
+
+.works_icons {
+  font-size: 90px;
+  color: var(--color-purple);
+}
+
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.carouselContainer h3 {
+    color: var(--color-gray);
+}
+.carouselCaption {
+    padding: 3rem;
+    height: 3rem;
+}
+.carouselItem {
+    height: 25rem;
+}
+.carouselImg {
+    width: 50%;
+    border-radius: 1rem;
+}
+.carousel-indicators button {
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+    border-radius: 50%;
+    border: 2px solid var(--color-purple) !important;
+}
+.carousel-indicators button:not(:first-child) {
+    margin-left: 2rem;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: var(--color-purple);
+    border-radius: 1rem;
+}
+
 /* Footer */
 footer {
     display: flex;

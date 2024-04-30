@@ -8,8 +8,8 @@ const DataProvider = ({ children }) => {
     const archDataUrl = "/data/architecture.json";
     const fsDataUrl = "/data/fullstack.json";
 
-    const [archData, setArchData] = useState(null);
-    const [fsData, setFsData] = useState(null);
+    const [archData, setArchData] = useState([]);
+    const [fsData, setFsData] = useState([]);
 
     useEffect(() => {
         const fetchData = async (url, setData) => {
