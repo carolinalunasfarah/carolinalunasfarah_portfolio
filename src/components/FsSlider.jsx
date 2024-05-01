@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 // swiper modules
 import { Pagination, Navigation } from "swiper/modules";
 
-// component
+// components
 import NavigationBreadcrumb from "./NavigationBreadcrumb.jsx";
 import SkillsIcons from "./SkillsIcons.jsx";
 // data
@@ -40,26 +40,24 @@ const FsSlider = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row mt-3">
-                <section className="col-4">
+                <section className="col-5">
                     <SkillsIcons skillsData={FsSkills} />
                 </section>
-
                 <Swiper
                     slidesPerView={1}
-                    spaceBetween={30}
                     loop={true}
                     pagination={{
                         clickable: true,
                     }}
                     navigation={true}
                     modules={[Pagination, Navigation]}
-                    className="col-8 slider">
+                    className="col-7 slider">
                     {fsData.map((fsProject, index) => (
                         <SwiperSlide key={index}>
                             <section className="d-flex justify-content-center">
                                 <img
                                     src={fsProject.image_src}
-                                    alt={fsProject.alt}
+                                    alt={fsProject.name}
                                     className="slider_img"
                                 />
                             </section>
