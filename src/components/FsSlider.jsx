@@ -9,8 +9,10 @@ import { Pagination, Navigation } from "swiper/modules";
 
 // component
 import NavigationBreadcrumb from "./NavigationBreadcrumb.jsx";
+import SkillsIcons from "./SkillsIcons.jsx";
 // data
 import { FullstackData } from "../data/FsProjects.jsx";
+import { FsSkills } from "../data/FsSkills.jsx";
 
 const FsSlider = () => {
     const fsData = FullstackData;
@@ -37,39 +39,54 @@ const FsSlider = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <Swiper
-                slidesPerView={1}
-                spaceBetween={30}
-                loop={true}
-                pagination={{
-                    clickable: true,
-                }}
-                navigation={true}
-                modules={[Pagination, Navigation]}
-                className="px-4 m-4">
-                {fsData.map((fsProject, index) => (
-                    <SwiperSlide key={index}>
-                        <section className="d-flex justify-content-center">
-                            <img
-                                src={fsProject.image_src}
-                                alt={fsProject.alt}
-                                className="sliderImage"
-                            />
-                        </section>
-                        <section className="py-3 mb-5 fsSlider_body">
-                            <h3>{fsProject.name}</h3>
-                            <p>{fsProject.description}</p>
-                            <button
-                                onClick={() =>
-                                    handleClick(fsProject.website_url)
-                                }
-                                className="btn btn-primary cursor-pointer">
-                                <span>{fsProject.name}</span>
-                            </button>
-                        </section>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+            <section className="row mt-3">
+                <section className="col-4">
+                    <SkillsIcons skillsData={FsSkills} />
+                </section>
+
+                <Swiper
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Pagination, Navigation]}
+                    className="col-8 slider">
+                    {fsData.map((fsProject, index) => (
+                        <SwiperSlide key={index}>
+                            <section className="d-flex justify-content-center">
+                                <img
+                                    src={fsProject.image_src}
+                                    alt={fsProject.alt}
+                                    className="slider_img"
+                                />
+                            </section>
+                            <section className="py-3 mb-5 slider_body">
+                                <h3>{fsProject.name}</h3>
+                                <p>{fsProject.description}</p>
+                                <section>
+                                    <button
+                                        onClick={() =>
+                                            handleClick(fsProject.website_url)
+                                        }
+                                        className="btn btn-primary cursor-pointer me-4">
+                                        <span>Visita esta página</span>
+                                    </button>
+                                    <button
+                                        onClick={() =>
+                                            handleClick(fsProject.rep_url)
+                                        }
+                                        className="btn btn-primary cursor-pointer">
+                                        <span>Ver código</span>
+                                    </button>
+                                </section>
+                            </section>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </section>
         </>
     );
 };

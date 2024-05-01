@@ -5,6 +5,8 @@ export const FullstackData = [
         alt: "Rick And Morty Frontend website image",
         image_src: "/assets/img/fullstack-img/frontend-rick-and-morty.png",
         website_url: "https://clf-react-api.netlify.app/",
+        rep_url:
+            "https://github.com/carolinalunasfarah/Desafio-LATAM_ReactConsumoApi",
     },
     {
         name: "Happy Cake Frontend",
@@ -12,6 +14,8 @@ export const FullstackData = [
         alt: "Happy Cake Frontend website image",
         image_src: "/assets/img/fullstack-img/frontend-happy-cake.png",
         website_url: "https://clf-happy-cake.netlify.app/",
+        rep_url:
+            "https://github.com/carolinalunasfarah/Desafio-LATAM_ReactRoutes",
     },
     {
         name: "Natural Pic Frontend",
@@ -19,6 +23,8 @@ export const FullstackData = [
         alt: "Natural Pic Frontend website image",
         image_src: "/assets/img/fullstack-img/frontend-natural-pic.png",
         website_url: "https://clf-natural-pic.netlify.app/",
+        rep_url:
+            "https://github.com/carolinalunasfarah/Desafio-LATAM_ReactContext",
     },
     {
         name: "Pizza Mamma Mia Frontend",
@@ -26,6 +32,8 @@ export const FullstackData = [
         alt: "Pizza Mamma Mia Frontend website image",
         image_src: "/assets/img/fullstack-img/frontend-pizza-mamma-mia.png",
         website_url: "https://clf-pizza-mamma-mia.netlify.app/",
+        rep_url:
+            "https://github.com/carolinalunasfarah/Desafio-LATAM_PizzaMammaMia",
     },
     {
         name: "Marketplace Frontend",
@@ -33,6 +41,7 @@ export const FullstackData = [
         alt: "Marketplace Frontend website image",
         image_src: "/assets/img/fullstack-img/frontend-marketplace.png",
         website_url: "https://mimarketlatino.netlify.app/",
+        rep_url: "https://github.com/vnasp/marketplace-frontend-react-user",
     },
     {
         name: "Marketplace Backend",
@@ -41,5 +50,6 @@ export const FullstackData = [
         image_src: "/assets/img/fullstack-img/backend-marketplace.png",
         website_url:
             "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs/",
+        rep_url: "https://github.com/vnasp/marketplace-backend-react-user",
     },
 ];
