@@ -49,7 +49,7 @@ export const FullstackData = [
     {
       name: "Portafolio Frontend",
       description: "Aplicación tipo portafolio profesional. Desarrollada en React y Vite para renderización, aplicando distintas vistas con sus respectivas rutas; estilos en CSS vanilla y Bootstrap.",
-      image_src: "/assets/img/fullstack-img/backend-marketplace.png",
+      image_src: "/assets/img/fullstack-img/frontend-portfolio.png",
       rep_url: "https://github.com/carolinalunasfarah/carolinalunasfarah_portfolio",
   },
 ];

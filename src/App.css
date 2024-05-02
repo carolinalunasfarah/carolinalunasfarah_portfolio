@@ -216,7 +216,6 @@ header {
 
 .slider {
   height: 50rem;
-  width: 100%;
 }
 
 .slider_img {
@@ -226,7 +225,7 @@ header {
 .slider_body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -257,6 +256,7 @@ header {
 
 .skills_p {
     width: 6rem;
+    font-weight: 500;
 }
 
 /* Footer */

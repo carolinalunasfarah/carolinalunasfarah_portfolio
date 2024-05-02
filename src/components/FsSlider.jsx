@@ -39,7 +39,7 @@ const FsSlider = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row mt-3 swiper_container">
+            <section className="row mt-3 swiper_container ps-3 pe-5">
                 <section className="col-5">
                     <SkillsIcons skillsData={FsSkills} />
                 </section>
@@ -61,7 +61,7 @@ const FsSlider = () => {
                                     className="slider_img rounded-4"
                                 />
                             </section>
-                            <section className="py-3 mb-5 slider_body">
+                            <section className="py-3 slider_body">
                                 <h3>{fsProject.name}</h3>
                                 <p>{fsProject.description}</p>
                                 <section>

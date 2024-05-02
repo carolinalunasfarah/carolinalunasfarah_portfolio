@@ -40,7 +40,7 @@ const ArchSlider = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row mt-3">
+            <section className="row mt-3 swiper_container ps-3 pe-5">
                 <section className="col-5 slider_body">
                     <SkillsIcons skillsData={ArchSkills} />
                     <button className="btn btn-secondary cursor-pointer">
