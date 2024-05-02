@@ -30,14 +30,6 @@ const Navigation = () => {
                     </ul>
                     <ul className="list-unstyled me-4">
                         <li className="list-elements">
-                            <i className="bi bi-chat-heart me-2"></i>
-                            <NavLink className={activeClass} to="/hobbies">
-                                Hobbies
-                            </NavLink>
-                        </li>
-                    </ul>
-                    <ul className="list-unstyled me-4">
-                        <li className="list-elements">
                             <i className="bi bi-envelope me-2"></i>
                             <NavLink className={activeClass} to="/contact">
                                 Contacto

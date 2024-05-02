@@ -49,6 +49,26 @@ strong {
   font-weight: 600;
 }
 
+.btn-tertiary {
+  background-color: var(--color-orange) !important;
+  border-color: var(--color-orange) !important;
+  height: 2.8rem;
+}
+
+.btn-tertiary span {
+  font-size: 18px;
+  color: var(--color-gray);
+  font-weight: 500;
+}
+
+.btn-tertiary:hover {
+  background-color: var(--color-purple) !important;
+  border-color: var(--color-purple) !important;
+  transition: ease 1s;
+  transform: scale(1.05);
+  font-weight: 800;
+}
+
 /* Navigation Breadcrumb */
 .navigation-breadcrumb {
     height: 1rem;
@@ -149,8 +169,17 @@ header {
 }
 
 .about-text {
-    line-height: 1.8;
-    font-size: 20px;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.hobbies_section img {
+  width: 5rem;
+  height: 5.5rem;
+}
+
+.hobbies_section p {
+  width: 30rem;
 }
 
 /* Works */
@@ -172,8 +201,15 @@ header {
 }
 
 /* Slider */
+.swiper_container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
 .slider {
   height: 45rem;
+  width: 100%;
 }
 
 .slider_img {
@@ -208,11 +244,11 @@ header {
 }
 
 /* Skills */
-.skills_section img {
+.skills_section img { 
     height: 2rem;
 }
 
-.skills_plñ {
+.skills_p {
     width: 6rem;
 }
 

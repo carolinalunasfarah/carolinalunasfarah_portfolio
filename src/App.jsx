@@ -11,7 +11,6 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import FsSlider from "./components/FsSlider";
 import ArchSlider from "./components/ArchSlider";
-import Hobbies from "./components/Hobbies";
 
 // views
 import Contact from "./views/Contact";
@@ -29,7 +28,6 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 
                 <Route path="/about" element={<About />} />
-                <Route path="/about/hobbies" element={<Hobbies />} />
 
                 <Route path="/works" element={<Works />} />
                 <Route path="/works/architecture" element={<ArchSlider />} />

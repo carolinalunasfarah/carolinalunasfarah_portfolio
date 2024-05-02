@@ -47,11 +47,11 @@ const Works = () => {
                     <i className="bi bi-code-slash works_icons"></i>
                     <h3>Portafolio Programación</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        A corrupti tenetur eum illum placeat perspiciatis sequi
-                        deserunt mollitia, quibusdam aliquid aperiam minima
-                        earum amet explicabo doloribus cumque voluptatem. Ipsum,
-                        dolore!
+                        Aquí podrás revisar las aplicaciones desarrolladas
+                        durante la carrera, donde podrás visitar tanto las
+                        páginas web como revisar el código que lo compone.
+                        Además, puedes ver otros proyectos en los repositorios
+                        de mi GitHub.
                     </p>
                     <button
                         onClick={handleClickFs}
