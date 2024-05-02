@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 // swiper components
 import { Swiper, SwiperSlide } from "swiper/react";
 // swiper styles
@@ -13,15 +15,12 @@ import SkillsIcons from "./SkillsIcons.jsx";
 // data
 import { ArchitectureData } from "../data/ArchProjects.jsx";
 import { ArchSkills } from "../data/ArchSkills.jsx";
-import { useNavigate } from "react-router-dom";
+import ArchitecturePortfolio from "/architecture_portfolio.pdf";
 
 const ArchSlider = () => {
     const archData = ArchitectureData;
 
-    const navigate = useNavigate();
-    const handleClick = () => {
-        navigate("/links");
-    };
+    const architecturePortfolio = ArchitecturePortfolio;
 
     return (
         <>
@@ -44,10 +43,10 @@ const ArchSlider = () => {
             <section className="row mt-3">
                 <section className="col-5 slider_body">
                     <SkillsIcons skillsData={ArchSkills} />
-                    <button
-                        onClick={handleClick}
-                        className="btn btn-secondary cursor-pointer">
-                        <span>Portafolio completo</span>
+                    <button className="btn btn-secondary cursor-pointer">
+                        <a href={architecturePortfolio} download>
+                            <span>Portafolio completo</span>
+                        </a>
                     </button>
                 </section>
                 <Swiper
@@ -68,7 +67,7 @@ const ArchSlider = () => {
                                 </section>
                             )}
                             <section
-                                className={`py-3 slider_body ${
+                                className={`slider_body ${
                                     !archProject.image_src && "slide_only_texts"
                                 }`}>
                                 <h4>{archProject.name}</h4>

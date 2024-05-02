@@ -32,9 +32,10 @@ const Works = () => {
                     <h3>Portafolio Arquitectura</h3>
                     <p>
                         Aquí podrás revisar algunas imágenes de proyectos que
-                        realicé durante la carrera. Pero si quieres ver el
-                        portafolio completo con mayor detalle, te invito a que
-                        lo descargues en la sección de links.
+                        realicé durante la carrera, donde explico un poco de los
+                        proyectos y puedes ver lo generado para cada propuesta,
+                        además puedes descargar mi portafolio completo en esta
+                        sección.
                     </p>
                     <button
                         onClick={handleClickArch}
@@ -48,10 +49,10 @@ const Works = () => {
                     <h3>Portafolio Programación</h3>
                     <p>
                         Aquí podrás revisar las aplicaciones desarrolladas
-                        durante la carrera, donde podrás visitar tanto las
-                        páginas web como revisar el código que lo compone.
-                        Además, puedes ver otros proyectos en los repositorios
-                        de mi GitHub.
+                        durante la carrera, donde podrás visitar tanto el deploy
+                        de cada propuesta, como también revisar el código que
+                        las compone. Además, puedes ver otros proyectos en los
+                        repositorios de mi perfil de GitHub.
                     </p>
                     <button
                         onClick={handleClickFs}

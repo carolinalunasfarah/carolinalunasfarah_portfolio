@@ -46,4 +46,10 @@ export const FullstackData = [
             "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs/",
         rep_url: "https://github.com/vnasp/marketplace-backend-react-user",
     },
+    {
+      name: "Portafolio Frontend",
+      description: "Aplicación tipo portafolio profesional. Desarrollada en React y Vite para renderización, aplicando distintas vistas con sus respectivas rutas; estilos en CSS vanilla y Bootstrap.",
+      image_src: "/assets/img/fullstack-img/backend-marketplace.png",
+      rep_url: "https://github.com/carolinalunasfarah/carolinalunasfarah_portfolio",
+  },
 ];

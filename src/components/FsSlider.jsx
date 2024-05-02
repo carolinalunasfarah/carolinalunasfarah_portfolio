@@ -65,13 +65,17 @@ const FsSlider = () => {
                                 <h3>{fsProject.name}</h3>
                                 <p>{fsProject.description}</p>
                                 <section>
-                                    <button
-                                        onClick={() =>
-                                            handleClick(fsProject.website_url)
-                                        }
-                                        className="btn btn-primary cursor-pointer me-4">
-                                        <span>Visita esta página</span>
-                                    </button>
+                                    {fsProject.website_url && (
+                                        <button
+                                            onClick={() =>
+                                                handleClick(
+                                                    fsProject.website_url
+                                                )
+                                            }
+                                            className="btn btn-primary cursor-pointer me-4">
+                                            <span>Visita esta página</span>
+                                        </button>
+                                    )}
                                     <button
                                         onClick={() =>
                                             handleClick(fsProject.rep_url)

@@ -41,6 +41,10 @@ strong {
   color: white;
 }
 
+.btn-secondary a {
+  text-decoration: none;
+}
+
 .btn-secondary:hover {
   background-color: var(--color-orange) !important;
   border-color: var(--color-orange) !important;
@@ -195,6 +199,7 @@ header {
 .works p,
 .slider_body p {
     width: 80%;
+    line-height: 1.8;
 }
 
 .works_icons {
@@ -210,7 +215,7 @@ header {
 }
 
 .slider {
-  height: 45rem;
+  height: 50rem;
   width: 100%;
 }
 

@@ -2,7 +2,7 @@ export const ArchitectureData = [
     {
         name: "2015 | Taller de Diseño Básico 2. Profesora: Alejandra Celedón",
         description:
-            "Villa Grimaldi fue un centro de detención y tortura durante la dictadura. Se trabajó con la respuesta a lo que fue la obra teatral “Villa+Discurso” del dramaturgo chileno Guillermo Calderón, la cual se enmarca dentro de una serie de iniciativas por reconocer la memoria de nuestro pasado reciente. En la obra, a tres mujeres se les da la tarea de decidir el futuro de la Villa Grimaldi frente a su inminente transformación en un memorial y museo de sitio. En este sentido, se busca generar otra posibilidad de transformación a Villa Grimaldi a través de la arquitectura, permitiendo reconocer, recordar y finalmente representar lo que allí ocurrió, se plantean preguntas como ¿hacemos un edificio blanco lleno de computadores Mac? ¿Reconstruimos la Villa como fue durante su tiempo como centro de tortura?",
+            "El proceso de la memoria | Villa Grimaldi fue un centro de detención y tortura durante la dictadura. Se trabajó con la respuesta a lo que fue la obra teatral “Villa+Discurso” del dramaturgo chileno Guillermo Calderón, la cual se enmarca dentro de una serie de iniciativas por reconocer la memoria de nuestro pasado reciente. En la obra, a tres mujeres se les da la tarea de decidir el futuro de la Villa Grimaldi frente a su inminente transformación en un memorial y museo de sitio. En este sentido, se busca generar otra posibilidad de transformación a Villa Grimaldi a través de la arquitectura, permitiendo reconocer, recordar y finalmente representar lo que allí ocurrió, se plantean preguntas como ¿hacemos un edificio blanco lleno de computadores Mac? ¿Reconstruimos la Villa como fue durante su tiempo como centro de tortura?",
     },
     {
         name: "Imagen objetivo propuesta",
@@ -30,32 +30,38 @@ export const ArchitectureData = [
     },
     {
         name: "Cortes",
-        description: "Cortes propuesta. AA' y BB' del recorrido subterráneo y su relación con el nivel de suelo, y CC'que muestra la Biblioteca, Cafetería y conexión del nivel subterráneo desde el nivel de suelo.",
+        description:
+            "Cortes propuesta. AA' y BB' del recorrido subterráneo y su relación con el nivel de suelo, y CC'que muestra la Biblioteca, Cafetería y conexión del nivel subterráneo desde el nivel de suelo.",
         image_src: "/assets/img/architecture-img/2015/celedon-05.jpg",
     },
     {
         name: "Corte y elevaciones",
-        description: "Cortes y elevaciones Biblioteca. DD' que muestra elevación Biblioteca y su rampa de acceso, y corte de auditorio y plaza central Cafetería. Las elevaciones muestran la relación de la Biblioteca con los árboles existentes y su posicionamiento respecto al nivel de suelo.",
+        description:
+            "Cortes y elevaciones Biblioteca. DD' que muestra elevación Biblioteca y su rampa de acceso, y corte de auditorio y plaza central Cafetería. Las elevaciones muestran la relación de la Biblioteca con los árboles existentes y su posicionamiento respecto al nivel de suelo.",
         image_src: "/assets/img/architecture-img/2015/celedon-06.jpg",
     },
     {
         name: "Imagen puente desde círculo central",
-        description: "Vista área esparcimiento, foyer Auditorio, Cafetería en círculo central y su relación con el puente sobre este espacio.",
+        description:
+            "Vista área esparcimiento, foyer Auditorio, Cafetería en círculo central y su relación con el puente sobre este espacio.",
         image_src: "/assets/img/architecture-img/2015/celedon-07.jpg",
     },
     {
         name: "Imagen Memoriales",
-        description: "Memoriales en recorrido subterráneo. Que se caracteriza por su baja iluminación y permitir la posibilidad de distintas exposiciones a través de este recorrido.",
+        description:
+            "Memoriales en recorrido subterráneo. Que se caracteriza por su baja iluminación y permitir la posibilidad de distintas exposiciones a través de este recorrido.",
         image_src: "/assets/img/architecture-img/2015/celedon-08.jpg",
     },
     {
         name: "Imagen interior biblioteca",
-        description: "Biblioteca sobre pilares, que queda inmersa entre la vegetación existente, donde también se trabaja con distintas iluminaciones, ya sea de forma directa o con celosías dependiendo el espacio y la vista que poseen los distintos ángulos.",
+        description:
+            "Biblioteca sobre pilares, que queda inmersa entre la vegetación existente, donde también se trabaja con distintas iluminaciones, ya sea de forma directa o con celosías dependiendo el espacio y la vista que poseen los distintos ángulos.",
         image_src: "/assets/img/architecture-img/2015/celedon-09.jpg",
     },
     {
         name: "Imagen Muro Nombres",
-        description: "Muro de nombres bajo caída de agua. Se reposiciona este muro ya existente, y se coloca bajo una caída de agua, que es el primer espacio abierto bajando hacia el recorrido subterráneo.",
+        description:
+            "Muro de nombres bajo caída de agua. Se reposiciona este muro ya existente, y se coloca bajo una caída de agua, que es el primer espacio abierto bajando hacia el recorrido subterráneo.",
         image_src: "/assets/img/architecture-img/2015/celedon-10.jpg",
     },
     {
@@ -117,53 +123,55 @@ export const ArchitectureData = [
     {
         name: "Diseño colaborativo Perrera Arte",
         description:
-            "El diseño colaborativo de Perrera Arte formó parte de la investigación realizada por Valentina Pérez, estudiante de Título de Arquitectura de la Facultad de Arquitectura y Urbanismo de la Universidad de Chile, quien tiene actualmente como profesora guía a Paola Velásquez, mi tutora, que fue quien me invitó a participar de este proyecto y formar parte del diseño. Para contextualizar, es necesario mencionar que la investigación de Valentina trabaja con espacios de arte independiente que se ubiquen en las periferias de Santiago o descentralizados del arte en sí como sistema; donde realizó la búsqueda de dos espacios, uno es la Galería Metropolitana de la comuna Pedro Aguirre Cerda y el otro, Perrera Arte de la comuna Quinta Normal. La forma de trabajo con estos espacios de arte independiente es teniendo un rol activo dentro de algún proceso creativo que estén llevando, intentando que estos procesos sean desarrollados con colaboración de la comunidad en donde se insertan, ya que el objetivo de su investigación es visualizar cómo estos espacios de arte independiente generan comunidad a través de sus procesos creativos. Este trabajo aquí realizado se enmarca en el proyecto “Un jardín colaborativo para el Palacio”, que contempla tres jardines, uno vertical, uno perimetral y el de la azotea, que es el que se desarrolla una propuesta inicial.",
+            "El diseño colaborativo de Perrera Arte formó parte de la investigación realizada por Valentina Pérez, con quien compartimos como profesora guía a Paola Velásquez, quien me invitó a participar de este proyecto y formar parte del diseño. Para contextualizar, es necesario mencionar que la investigación de Valentina trabajó con espacios de arte independiente que se ubicaran en periferias de Santiago o descentralizados del arte en sí como sistema; donde realizó la búsqueda de dos espacios, uno es la Galería Metropolitana de la comuna Pedro Aguirre Cerda y el otro, Perrera Arte de la comuna Quinta Normal. La forma de trabajo se realizó bajo la idea de tener un rol activo dentro de algún proceso creativo que estén llevando a cabo, intentando que fuesen desarrollados con colaboración de la comunidad en donde se insertan, ya que el objetivo de su investigación fue visualizar cómo estos espacios generan comunidad a través de sus procesos creativos. La propuesta realizada se enmarcó en el proyecto “Un jardín colaborativo para el Palacio”, que contempló tres jardines, uno vertical, uno perimetral y en la azotea, que es la propuesta que aquí se podrá ver.",
     },
     {
         name: "Diseño colaborativo Perrera Arte",
-        description: "Isométrica propuesta Un Jardín para el Palacio",
+        description:
+            "Isométrica propuesta Un Jardín para el Palacio. Donde se visualiza un programa de interacción para actividades y eventos al aire libre; vivero para plantación y crecimiento de especies vegetativas; y un programa educativo medioambiental.",
         image_src: "/assets/img/architecture-img/2019/giannotti-13.jpg",
     },
     {
         name: "Diseño colaborativo Perrera Arte",
-        description: "Isométrica propuesta Un Jardín para el Palacio",
+        description:
+            "Isométrica propuesta Un Jardín para el Palacio. Donde se visualiza la estructura de cubierta para la azotea, en madera que continúa la dirección de los marcos existentes, y una estructura secundaria para instalación de cañizo para tamización de la luz y que es capaz de aguantar una eventual pérgola verde.",
         image_src: "/assets/img/architecture-img/2019/giannotti-14.jpg",
     },
     {
         name: "2020 | Curso online Revit & BIM. Plataforma Crehana",
         description:
-            "Se desarrolla una casa de vacaciones en base a planimetría CAD, realizándose el levantamiento 3D de dicha casa y parte de su contexto, trabajándose también con el renderizado que provee el mismo programa.",
+            "Se desarrolla una casa de vacaciones en base a planimetría CAD, realizándose el levantamiento 3D de dicha casa y parte de su contexto en Revit, trabajándose también con el renderizado que provee el mismo programa.",
     },
     {
         name: "Curso online Revit & BIM",
         description:
-            "Se realiza una casa de vacaciones desarrollada en su totalidad en Revit",
+            "Se realiza una casa de vacaciones desarrollada en su totalidad en Revit.",
         image_src: "/assets/img/architecture-img/2020/revit-01.jpg",
     },
     {
         name: "Cortes propuesta",
-        description: "Cortes propuesta con distintas gráficas de renderizado",
+        description: "Cortes propuesta con distintas gráficas de renderizado.",
         image_src: "/assets/img/architecture-img/2020/revit-02.jpg",
     },
     {
         name: "Corte y vistas propuesta",
-        description: "Corte y vistas propuestas del área de piscina",
+        description: "Corte y vistas propuestas del área de piscina.",
         image_src: "/assets/img/architecture-img/2020/revit-03.jpg",
     },
     {
         name: "Vistas terrazas y cuadros de cubicaciones",
         description:
-            "Vistas de terraza superior y exterior, cuadros de áreas, mobiliario, ventanas y puertas",
+            "Vistas de terraza superior y exterior, cuadros de áreas, mobiliario, ventanas y puertas.",
         image_src: "/assets/img/architecture-img/2020/revit-04.jpg",
     },
     {
         name: "Elevaciones",
-        description: "Elevaciones con renderizado de árboles",
+        description: "Elevaciones con renderizado de árboles.",
         image_src: "/assets/img/architecture-img/2020/revit-05.jpg",
     },
     {
         name: "Elevaciones",
-        description: "Elevaciones con renderizado de árboles",
+        description: "Elevaciones con renderizado de árbole.s",
         image_src: "/assets/img/architecture-img/2020/revit-06.jpg",
     },
     {
@@ -174,7 +182,7 @@ export const ArchitectureData = [
     {
         name: "Ecobarrio Juan Antonio Ríos",
         description:
-            "La Población Juan Antonio Ríos es uno de los primeros conjuntos habitacionales de vivienda social obrera en Chile, construida entre 1945 y 1961 por la Caja de la Habitación Popular y luego por la Corporación de la Vivienda. Diseñada y construida bajo la corriente modernista, pone el foco en el objeto arquitectónico: el bloque; cubre un área de 110 hectáreas, dividida en 6 sectores con más de 5.000 viviendas, equipamiento, grandes áreas verdes, y plazas con equipamiento deportivo y/o juegos infantiles. Sin embargo, en la práctica, el espacio público y común, se traducen en zonas subutilizadas y mayormente de tierra, con poca iluminación y una frecuencia de uso muy baja, debido a la sensación de inseguridad. Su ubicación es privilegiada respecto a la región Metropolitana, con alta conectividad a transporte público y vías conectoras con el resto de la ciudad y región; además de su cercanía al sur con hitos naturales como el Río Mapocho, el Parque de Los Reyes, entre otros; sin embargo, el aprovechamiento de estos espacios se ve dificultado por el borde sur oriente-poniente de la Panamericana y Costanera Norte, que impide a peatones utilizar estos espacios. Por otro lado, el crecimiento poblacional y la falta de movilidad habitacional en viviendas sociales, ha provocado hacinamiento y allegamiento, por lo que es necesario entregar viviendas, pero sin generar desplazamiento de las personas, evitando pérdida de redes sociales y accesibilidad a equipamientos que hoy poseen, así como también evitando la reducción de áreas disponibles a nivel de suelo. Así, transformar la población a un ecobarrio resulta la forma idónea para resolver problemáticas de distintas escalas de forma integral, mejorando la calidad de vida de habitantes y el medio ambiente, disminuyendo los impactos del cambio climático.",
+            "La Población Juan Antonio Ríos es uno de los primeros conjuntos habitacionales de vivienda social obrera en Chile, construida entre 1945 y 1961 por la Caja de la Habitación Popular y luego por la Corporación de la Vivienda. Diseñada y construida bajo la corriente modernista, pone el foco en el objeto arquitectónico: el bloque; cubre un área de 110 hectáreas, dividida en 6 sectores con más de 5.000 viviendas, equipamiento, grandes áreas verdes, y plazas con equipamiento deportivo y/o juegos infantiles. Sin embargo, el espacio público y común, son actualmente zonas subutilizadas y mayormente de tierra, con poca iluminación y una frecuencia de uso muy baja, debido a la sensación de inseguridad. Por su ubicación, el barrio tiene una alta conectividad a transporte público y vías conectoras con el resto de la ciudad y región; además de su cercanía al sur con hitos naturales como el Río Mapocho, el Parque de Los Reyes, entre otros; sin embargo, el aprovechamiento peatonal de estos espacios se ve dificultado por el borde sur oriente-poniente de la Panamericana y Costanera Norte. Por otro lado, el crecimiento poblacional y la falta de movilidad habitacional en viviendas sociales, ha provocado hacinamiento y allegamiento, por lo que es necesario entregar viviendas, pero sin generar desplazamiento de personas, evitando pérdida de redes sociales y accesibilidad a equipamientos que hoy poseen, así como también evitando la reducción de áreas disponibles a nivel de suelo. Así, transformar la población a un ecobarrio resulta la forma idónea para resolver problemáticas de distintas escalas de forma integral, mejorando la calidad de vida de habitantes y el medio ambiente, disminuyendo los impactos del cambio climático.",
     },
     {
         name: "Plan Maestro Ecobarrio Juan Antonio Ríos",
