@@ -30,6 +30,25 @@ strong {
     font-weight: 600;
 }
 
+.btn-secondary {
+  background-color: var(--color-gray) !important;
+  border-color: var(--color-gray) !important;
+  height: 2.8rem;
+}
+
+.btn-secondary span {
+  font-size: 18px;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-orange) !important;
+  border-color: var(--color-orange) !important;
+  transition: ease 1s;
+  transform: scale(1.05);
+  font-weight: 600;
+}
+
 /* Navigation Breadcrumb */
 .navigation-breadcrumb {
     height: 1rem;
@@ -193,7 +212,7 @@ header {
     height: 2rem;
 }
 
-.list-elements p {
+.skills_plñ {
     width: 6rem;
 }
 

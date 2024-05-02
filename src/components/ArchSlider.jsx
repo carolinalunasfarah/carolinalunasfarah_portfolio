@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 // swiper modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 // components
 import NavigationBreadcrumb from "./NavigationBreadcrumb.jsx";
@@ -13,9 +13,15 @@ import SkillsIcons from "./SkillsIcons.jsx";
 // data
 import { ArchitectureData } from "../data/ArchProjects.jsx";
 import { ArchSkills } from "../data/ArchSkills.jsx";
+import { useNavigate } from "react-router-dom";
 
 const ArchSlider = () => {
     const archData = ArchitectureData;
+
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("/links");
+    };
 
     return (
         <>
@@ -36,8 +42,13 @@ const ArchSlider = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row mt-3">
-                <section className="col-5">
+                <section className="col-5 slider_body">
                     <SkillsIcons skillsData={ArchSkills} />
+                    <button
+                        onClick={handleClick}
+                        className="btn btn-secondary cursor-pointer">
+                        <span>Portafolio completo</span>
+                    </button>
                 </section>
                 <Swiper
                     slidesPerView={1}
@@ -56,7 +67,10 @@ const ArchSlider = () => {
                                     />
                                 </section>
                             )}
-                            <section className={`py-3 slider_body ${!archProject.image_src && "slide_only_texts"}`}>
+                            <section
+                                className={`py-3 slider_body ${
+                                    !archProject.image_src && "slide_only_texts"
+                                }`}>
                                 <h4>{archProject.name}</h4>
                                 <p>{archProject.description}</p>
                             </section>

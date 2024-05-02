@@ -1,20 +1,6 @@
-import NavigationBreadcrumb from "../components/NavigationBreadcrumb";
-
 const Hobbies = () => {
     return (
         <>
-            <section className="px-5 pt-4">
-                <NavigationBreadcrumb
-                    paths={[
-                        {
-                            text: "Inicio",
-                            to: "/",
-                        },
-                        {
-                            text: "Hobbies",
-                        },
-                    ]}></NavigationBreadcrumb>
-            </section>
             <section className="row about-row">
                 <article className="col">
                     <ul className="list-unstyled me-4">

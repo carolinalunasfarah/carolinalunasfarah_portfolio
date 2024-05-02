@@ -76,7 +76,7 @@ const FsSlider = () => {
                                         onClick={() =>
                                             handleClick(fsProject.rep_url)
                                         }
-                                        className="btn btn-primary cursor-pointer">
+                                        className="btn btn-secondary cursor-pointer">
                                         <span>Ver código</span>
                                     </button>
                                 </section>
