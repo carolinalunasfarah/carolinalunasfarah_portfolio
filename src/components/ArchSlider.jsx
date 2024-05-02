@@ -15,7 +15,7 @@ import SkillsIcons from "./SkillsIcons.jsx";
 // data
 import { ArchitectureData } from "../data/ArchProjects.jsx";
 import { ArchSkills } from "../data/ArchSkills.jsx";
-import ArchitecturePortfolio from "/architecture_portfolio.pdf";
+import ArchitecturePortfolio from "/calf_architecture_portfolio.pdf";
 
 const ArchSlider = () => {
     const archData = ArchitectureData;

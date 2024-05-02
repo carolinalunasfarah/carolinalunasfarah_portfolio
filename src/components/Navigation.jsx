@@ -36,14 +36,6 @@ const Navigation = () => {
                             </NavLink>
                         </li>
                     </ul>
-                    <ul className="list-unstyled">
-                        <li className="list-elements">
-                            <i className="bi bi-file-earmark-arrow-down me-2"></i>
-                            <NavLink className={activeClass} to="/links">
-                                Links
-                            </NavLink>
-                        </li>
-                    </ul>
                 </section>
             </nav>
         </>

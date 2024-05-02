@@ -16,7 +16,6 @@ import ArchSlider from "./components/ArchSlider";
 import Contact from "./views/Contact";
 import About from "./views/About";
 import Works from "./views/Works";
-import Links from "./views/Links";
 
 function App() {
     return (
@@ -25,15 +24,14 @@ function App() {
 
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/contact" element={<Contact />} />
                 
                 <Route path="/about" element={<About />} />
 
                 <Route path="/works" element={<Works />} />
                 <Route path="/works/architecture" element={<ArchSlider />} />
                 <Route path="/works/fullstack" element={<FsSlider />} />
-                
-                <Route path="/links" element={<Links />} />
+
+                <Route path="/contact" element={<Contact />} />
             </Routes>
 
             <Footer />
