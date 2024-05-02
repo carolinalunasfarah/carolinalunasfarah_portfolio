@@ -31,46 +31,46 @@ strong {
 }
 
 .btn-secondary {
-  background-color: var(--color-gray) !important;
-  border-color: var(--color-gray) !important;
-  height: 2.8rem;
+    background-color: var(--color-gray) !important;
+    border-color: var(--color-gray) !important;
+    height: 2.8rem;
 }
 
 .btn-secondary span {
-  font-size: 18px;
-  color: white;
+    font-size: 18px;
+    color: white;
 }
 
 .btn-secondary a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-orange) !important;
-  border-color: var(--color-orange) !important;
-  transition: ease 1s;
-  transform: scale(1.05);
-  font-weight: 600;
+    background-color: var(--color-orange) !important;
+    border-color: var(--color-orange) !important;
+    transition: ease 1s;
+    transform: scale(1.05);
+    font-weight: 600;
 }
 
 .btn-tertiary {
-  background-color: var(--color-orange) !important;
-  border-color: var(--color-orange) !important;
-  height: 2.8rem;
+    background-color: var(--color-orange) !important;
+    border-color: var(--color-orange) !important;
+    height: 2.8rem;
 }
 
 .btn-tertiary span {
-  font-size: 18px;
-  color: var(--color-gray);
-  font-weight: 500;
+    font-size: 18px;
+    color: var(--color-gray);
+    font-weight: 500;
 }
 
 .btn-tertiary:hover {
-  background-color: var(--color-purple) !important;
-  border-color: var(--color-purple) !important;
-  transition: ease 1s;
-  transform: scale(1.05);
-  font-weight: 800;
+    background-color: var(--color-purple) !important;
+    border-color: var(--color-purple) !important;
+    transition: ease 1s;
+    transform: scale(1.05);
+    font-weight: 800;
 }
 
 /* Navigation Breadcrumb */
@@ -173,19 +173,19 @@ header {
 }
 
 .about-text {
-  line-height: 1.8;
-  font-size: 18px;
+    line-height: 1.8;
+    font-size: 18px;
 }
 
 .hobbies_section img {
-  width: 5rem;
-  height: 5.5rem;
+    width: 5rem;
+    height: 5.5rem;
 }
 
 .hobbies_section p {
-  width: 30rem;
-  height: 9rem;
-  font-size: 18px;
+    width: 30rem;
+    height: 9rem;
+    font-size: 18px;
 }
 
 /* Works */
@@ -209,13 +209,13 @@ header {
 
 /* Slider */
 .swiper_container {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .slider {
-  height: 50rem;
+    height: 50rem;
 }
 
 .slider_img {
@@ -235,13 +235,13 @@ header {
     color: var(--color-purplemedium);
 }
 
-.slide_only_texts h4{
-  font-size: 30px;
-  width: 30rem;
-  color: var(--color-purpledark);
+.slide_only_texts h4 {
+    font-size: 30px;
+    width: 30rem;
+    color: var(--color-purpledark);
 }
-.slide_only_texts p{
-  margin-top: 2rem;
+.slide_only_texts p {
+    margin-top: 2rem;
 }
 
 .swiper-button-prev,
@@ -250,13 +250,30 @@ header {
 }
 
 /* Skills */
-.skills_section img { 
+.skills_section img {
     height: 2rem;
 }
 
 .skills_p {
     width: 6rem;
     font-weight: 500;
+}
+
+/* Contact */
+.contact_items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact_items i {
+    font-size: 6rem;
+    color: var(--color-purplemedium);
+}
+
+.contact_items a:hover {
+    transition: ease 1s;
+    transform: scale(1.15);
+    color: var(--color-purpledark);
 }
 
 /* Footer */
