@@ -71,7 +71,7 @@ const About = () => {
                         estar constantemente en ese camino, por lo que estoy
                         abierta a seguir explorando las opciones.
                     </p>
-                    <article className="col col-12 d-flex justify-content-center mt-2">
+                    <article className="col col-12 d-flex justify-content-center mt-4">
                         <button
                             onClick={handleClick}
                             className="btn btn-secondary cursor-pointer">

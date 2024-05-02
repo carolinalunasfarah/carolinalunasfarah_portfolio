@@ -15,11 +15,12 @@ const Hobbies = () => {
 
     return (
         <>
-            <section className="row about-row hobbies_section">
+            <section className="row about-row hobbies_section mt-4">
                 <article className="col">
                     <ul className="list-unstyled me-4">
                         <li className="list-elements">
                             <img src={Embroidery} alt="Embroidery icon" />
+                            <h4 className="mt-4 hobbies_title">Bordados</h4>
                             <p className="mt-4">
                                 Uno de mis principales hobbies tiene que ver con
                                 la búsqueda de formas de distracción y
@@ -33,8 +34,8 @@ const Hobbies = () => {
                                     onClick={() =>
                                         handleClick(hobbies.embroidery)
                                     }
-                                    className="btn btn-tertiary cursor-pointer me-4">
-                                    <span>Ver más bordados</span>
+                                    className="btn btn-tertiary cursor-pointer">
+                                    <span>Ver bordados</span>
                                 </button>
                             ))}
                         </li>
@@ -44,6 +45,7 @@ const Hobbies = () => {
                     <ul className="list-unstyled me-4">
                         <li className="list-elements">
                             <img src={Photography} alt="Photography icon" />
+                            <h4 className="mt-4 hobbies_title">Fotografía análoga</h4>
                             <p className="mt-4">
                                 En mi interés por la arquitectura y el
                                 paisajismo, he visitado y fotografiado con mi
@@ -57,8 +59,8 @@ const Hobbies = () => {
                                     onClick={() =>
                                         handleClick(hobbies.photography)
                                     }
-                                    className="btn btn-tertiary cursor-pointer me-4">
-                                    <span>Ver más fotografías</span>
+                                    className="btn btn-tertiary cursor-pointer">
+                                    <span>Ver fotografías</span>
                                 </button>
                             ))}
                         </li>

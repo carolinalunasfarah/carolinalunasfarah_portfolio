@@ -1,7 +1,7 @@
 export const FullstackData = [
     {
         name: "Rick And Morty Frontend",
-        description: "Se crea una aplicación que consume la API de la serie animada Rick And Morty. La aplicación es un landing page con un buscador para filtrar los resultados según nombre del personaje. Se utiliza React para renderización, CSS vanilla y Bootstrap para estilos.",
+        description: "Aplicación SPA que consume la API de la serie animada Rick And Morty; es un landing page con un buscador para filtrar los resultados según nombre de personaje. Desarrollada en React y Vite para renderización; estilos en CSS vanilla y Bootstrap.",
         image_src: "/assets/img/fullstack-img/frontend-rick-and-morty.png",
         website_url: "https://clf-react-api.netlify.app/",
         rep_url:
@@ -9,7 +9,7 @@ export const FullstackData = [
     },
     {
         name: "Happy Cake Frontend",
-        description: "Se crea una aplicación para la empresa Happy Cake SPA, que buscan mostrar sus productos a través de un catálogo, y donde se puedan realizar cotizaciones a través de un formulario. Se utiliza React para renderización, aplicando además distintas vistas con sus respectivas rutas; y CSS vanilla y Bootstrap para estilos.",
+        description: "Aplicación SPA para pastelería, para mostrar sus productos a través de un catálogo, donde además, se puedan realizar cotizaciones a través de un formulario. Desarrollada en React y Vite para renderización, aplicando distintas vistas con sus respectivas rutas; y estilos en CSS vanilla y Bootstrap.",
         image_src: "/assets/img/fullstack-img/frontend-happy-cake.png",
         website_url: "https://clf-happy-cake.netlify.app/",
         rep_url:
@@ -17,7 +17,7 @@ export const FullstackData = [
     },
     {
         name: "Natural Pic Frontend",
-        description: "Se crea una aplicación que sirve como plataforma para que distintas personas muestren sus fotografías de la naturaleza, donde se pueden guardar favoritas y luego poder verlas en una vista específica para ello. Se utiliza React para renderización, aplicando distintas vistas con sus respectivas rutas, además de crear un contexto para el manejo de los estados; y CSS vanilla y Bootstrap para estilos.",
+        description: "Aplicación SPA como plataforma para mostrar fotografías de la naturaleza, que se gestionan desde un archivo JSON. En esta aplicación se pueden agregar y quitar fotografías favoritas, y aquellas favoritas pueden visualizarse en otra vista. Desarrollada en React y Vite para renderización, aplicando distintas vistas con sus respectivas rutas, se crea un contexto para el manejo de estados; y estilos en CSS vanilla.",
         image_src: "/assets/img/fullstack-img/frontend-natural-pic.png",
         website_url: "https://clf-natural-pic.netlify.app/",
         rep_url:
@@ -25,7 +25,7 @@ export const FullstackData = [
     },
     {
         name: "Pizza Mamma Mia Frontend",
-        description: "Se crea una aplicación para la pizzería Mamma Mia! SPA, que buscan mostrar las distintas variedades de pizzas y poder venderlas a través del sitio web. Se utiliza React para renderización, aplicando distintas vistas con sus respectivas rutas, contexto para el manejo de los estados y un carrito de compras; y CSS vanilla y Bootstrap para estilos.",
+        description: "Aplicación SPA para pizzería, para mostrar variedades de pizzas con gestión de un carrito de compras. Desarrollada en React y Vite para renderización, aplicando distintas vistas con sus respectivas rutas, contexto para el manejo de estados y el carrito de compras; estilos en CSS vanilla y Bootstrap.",
         image_src: "/assets/img/fullstack-img/frontend-pizza-mamma-mia.png",
         website_url: "https://clf-pizza-mamma-mia.netlify.app/",
         rep_url:
@@ -33,14 +33,14 @@ export const FullstackData = [
     },
     {
         name: "Marketplace Frontend",
-        description: "Marketplace Frontend website image",
+        description: "Aplicación SPA tipo marketplace para compra y venta de artículos, registro y perfil de usuarios, y gestión de carrito de compras y favoritos. Desarrollada en React y Vite conectada a una API para contenido dinámico, aplicando distitnas vistas con sus respectivas rutas, contexto para manejo de estados; estilos en Bootstrap y CSS vanilla.",
         image_src: "/assets/img/fullstack-img/frontend-marketplace.png",
         website_url: "https://mimarketlatino.netlify.app/",
         rep_url: "https://github.com/vnasp/marketplace-frontend-react-user",
     },
     {
         name: "Marketplace Backend",
-        description: "Marketplace Backend website image",
+        description: "API con base de datos PostgreSQL, documentada con Swagger, para gestión de usuarios autenticados con email o Google, creación y eliminación de productos, gestión de carrito de compras y sus respectivas órdenes; con manejo de seguridad de JWT y pruebas automatizadas con Jest.",
         image_src: "/assets/img/fullstack-img/backend-marketplace.png",
         website_url:
             "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs/",
