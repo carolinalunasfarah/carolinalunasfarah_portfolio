@@ -7,7 +7,7 @@ const Navigation = () => {
         <>
             <nav>
                 <section>
-                    <NavLink className="active" to="/">
+                    <NavLink className="active nav_brand" to="/">
                         CAROLINA LUNAS FARAH
                     </NavLink>
                 </section>
