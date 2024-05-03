@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer>
             <section>
-                <small>
+                <small className="cursor_default">
                     Carolina Lunas Farah 2024. Todos los derechos reservados.
                 </small>
             </section>

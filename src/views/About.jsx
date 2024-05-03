@@ -51,19 +51,19 @@ const About = () => {
             <section className="px-5 pt-4">
                 <NavigationBreadcrumb paths={breadcrumbPaths} />
             </section>
-            <section className="row about-row">
-                <article className="col col-4 about">
-                    <h3 className="about-title">¡Hola!</h3>
+            <section className="row about_row">
+                <article className="col col-3 flex_col">
+                    <h3 className="about_title cursor_default">¡Hola!</h3>
                 </article>
-                <article className="col col-8">
-                    <p className="py-2 px-5 m-0 about-text">
+                <article className="col col-9">
+                    <p className="about_text cursor_default">
                         Mi nombre es <strong>Carolina Lunas Farah</strong>, soy{" "}
                         <strong>Arquitecta</strong> titulada de la Universidad
                         de Chile, con interés en el urbanismo, paisajismo,
                         arquitectura vernacular y el uso de energías renovables
                         no convencionales para el funcionamiento de la ciudad.
                     </p>
-                    <p className="py-2 px-5 m-0 about-text">
+                    <p className="about_text cursor_default">
                         Además soy <strong>Programadora</strong> Full Stack
                         Javascript de la Academia Desafío Latam, tengo
                         conocimientos de Frontend y Backend y tengo una gran
@@ -72,7 +72,7 @@ const About = () => {
                         lo que sigo aprendiendo y fortaleciendo mis
                         conocimientos.
                     </p>
-                    <p className="py-2 px-5 m-0 about-text">
+                    <p className="about_text cursor_default">
                         Por otro lado, puedo decir también que soy una persona
                         muy curiosa y me gusta aprender distintas formas de
                         expresión de creatividad, por lo que me dedico también a
@@ -82,7 +82,7 @@ const About = () => {
                         detallista, me gusta el trabajo en equipo, así como
                         también el trabajo en solitario.
                     </p>
-                    <article className="col col-12 d-flex justify-content-center mt-4">
+                    <article className="col col-12 flex_col mt-4">
                         <button
                             onClick={handleClick}
                             className="btn btn-secondary cursor-pointer">

@@ -1,5 +1,3 @@
-import { useNavigate } from "react-router-dom";
-
 // swiper components
 import { Swiper, SwiperSlide } from "swiper/react";
 // swiper styles
@@ -40,8 +38,8 @@ const ArchSlider = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row mt-3 swiper_container ps-3 pe-5">
-                <section className="col-5 slider_body">
+            <section className="row mt-3 ps-3 pe-5">
+                <section className="col col-5 slider_body">
                     <SkillsIcons skillsData={ArchSkills} />
                     <button className="btn btn-secondary cursor-pointer">
                         <a href={architecturePortfolio} download>
@@ -54,24 +52,23 @@ const ArchSlider = () => {
                     loop={true}
                     navigation={true}
                     modules={[Navigation]}
-                    className="col-7 slider">
+                    className="col col-7 slider">
                     {archData.map((archProject, index) => (
                         <SwiperSlide key={index}>
                             {archProject.image_src && (
-                                <section className="d-flex justify-content-center">
+                                <section className="flex_col">
                                     <img
                                         src={archProject.image_src}
                                         alt={`${archProject.name} + "website image"`}
-                                        className="slider_img"
                                     />
                                 </section>
                             )}
                             <section
                                 className={`slider_body ${
-                                    !archProject.image_src && "slide_only_texts"
+                                    !archProject.image_src && "slide_only_text"
                                 }`}>
-                                <h4>{archProject.name}</h4>
-                                <p>{archProject.description}</p>
+                                <h4 className="cursor_default">{archProject.name}</h4>
+                                <p className="cursor_default">{archProject.description}</p>
                             </section>
                         </SwiperSlide>
                     ))}

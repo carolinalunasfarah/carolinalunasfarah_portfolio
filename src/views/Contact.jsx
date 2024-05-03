@@ -4,7 +4,7 @@ import NavigationBreadcrumb from "../components/NavigationBreadcrumb";
 import CV from "/calf_cv_2024.pdf";
 
 const Contact = () => {
-    const cv = CV;
+    const curriculum = CV;
 
     return (
         <>
@@ -20,19 +20,19 @@ const Contact = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row about-row">
-                <article className="col col-4">
-                    <h3 className="about-title">¡Contáctame!</h3>
+            <section className="row about_row">
+                <article className="col col-5">
+                    <h3 className="about_title cursor_default">¡Contáctame!</h3>
                 </article>
-                <article className="col col-8">
-                    <section className="row contact_items">
+                <article className="col col-7">
+                    <section className="row contact">
                         <article className="col-4">
                             <ul className="list-unstyled me-4">
-                                <li className="list-elements">
-                                    <a href={cv} download>
+                                <li className="flex_col">
+                                    <a href={curriculum} download>
                                         <i className="bi bi-file-earmark-person"></i>
                                     </a>
-                                    <p className="mb-4 about-text">
+                                    <p className="mb-4 cursor_default">
                                         Descarga mi CV para más información
                                     </p>
                                 </li>
@@ -40,11 +40,11 @@ const Contact = () => {
                         </article>
                         <article className="col-4">
                             <ul className="list-unstyled me-4">
-                                <li className="list-elements contact_items">
+                                <li className="flex_col contact">
                                     <a href="mailto:carolinalunasfarah@gmail.com">
                                         <i className="bi bi-envelope-at-fill"></i>
                                     </a>
-                                    <p className="mb-4 about-text">Envíame un correo</p>
+                                    <p className="mb-4 cursor_default">Envíame un correo</p>
                                 </li>
                             </ul>
                         </article>

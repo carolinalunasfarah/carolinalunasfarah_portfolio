@@ -4,12 +4,12 @@ import NavigationBreadcrumb from "../components/NavigationBreadcrumb";
 const Works = () => {
     const navigate = useNavigate();
 
-    const handleClickFs = () => {
-        navigate("/works/fullstack");
-    };
-
-    const handleClickArch = () => {
-        navigate("/works/architecture");
+    const handleClick = (destination) => {
+        navigate(destination);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
     };
 
     return (
@@ -27,10 +27,12 @@ const Works = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row pb-4">
-                <article className="col works">
+                <article className="col col-6 flex_col works">
                     <i className="bi bi-boxes works_icons"></i>
-                    <h3>Portafolio Arquitectura</h3>
-                    <p>
+                    <h3 className="mt-4 cursor_default">
+                        Portafolio Arquitectura
+                    </h3>
+                    <p className="mt-3 cursor_default">
                         Aquí podrás revisar algunas imágenes de proyectos que
                         realicé durante la carrera, donde explico un poco de los
                         proyectos y puedes ver lo generado para cada propuesta,
@@ -38,16 +40,18 @@ const Works = () => {
                         sección.
                     </p>
                     <button
-                        onClick={handleClickArch}
-                        className="btn btn-primary cursor-pointer"
+                        onClick={() => handleClick("/works/architecture")}
+                        className="btn btn-primary cursor-pointer mt-2"
                         aria-label="Ver Portafolio Arquitectura">
                         <span>Portafolio Arquitectura</span>
                     </button>
                 </article>
-                <article className="col works">
+                <article className="col col-6 flex_col works">
                     <i className="bi bi-code-slash works_icons"></i>
-                    <h3>Portafolio Programación</h3>
-                    <p>
+                    <h3 className="mt-4 cursor_default">
+                        Portafolio Programación
+                    </h3>
+                    <p className="mt-3 cursor_default">
                         Aquí podrás revisar las aplicaciones desarrolladas
                         durante la carrera, donde podrás visitar tanto el deploy
                         de cada propuesta, como también revisar el código que
@@ -55,8 +59,8 @@ const Works = () => {
                         repositorios de mi perfil de GitHub.
                     </p>
                     <button
-                        onClick={handleClickFs}
-                        className="btn btn-primary cursor-pointer"
+                        onClick={() => handleClick("/works/fullstack")}
+                        className="btn btn-primary cursor-pointer mt-2"
                         aria-label="Ver Portafolio Programación">
                         <span>Portafolio Programación</span>
                     </button>
