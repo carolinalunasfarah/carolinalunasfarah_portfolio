@@ -8,7 +8,7 @@ strong {
 }
 
 .cursor_default {
-  cursor: default;
+    cursor: default;
 }
 
 .flex_col {
@@ -128,7 +128,7 @@ nav i {
 
 /* Home */
 header {
-    background-image: url("/assets/img/bg-header.png");
+    background-image: url("/assets/img/bg-header.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -202,7 +202,7 @@ header {
 
 /* Skills */
 .skills {
-  text-align: center;
+    text-align: center;
 }
 
 .skills img {
@@ -260,7 +260,7 @@ header {
 }
 
 .contact p {
-  text-align: center;
+    text-align: center;
 }
 
 .contact i {
