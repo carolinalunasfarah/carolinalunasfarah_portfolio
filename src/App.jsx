@@ -16,6 +16,7 @@ import ArchSlider from "./components/ArchSlider";
 import Contact from "./views/Contact";
 import About from "./views/About";
 import Works from "./views/Works";
+import NotFound from "./views/NotFound"
 
 function App() {
     return (
@@ -32,6 +33,8 @@ function App() {
                 <Route path="/works/fullstack" element={<FsSlider />} />
 
                 <Route path="/contact" element={<Contact />} />
+
+                <Route path="*" element={<NotFound />} />
             </Routes>
 
             <Footer />
