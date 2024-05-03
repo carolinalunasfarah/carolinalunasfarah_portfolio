@@ -149,6 +149,8 @@ header {
 
 .header_subtitle {
     font-weight: 600;
+    width: 50rem;
+    text-align: center;
 }
 
 /* About */
