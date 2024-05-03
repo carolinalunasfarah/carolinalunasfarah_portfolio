@@ -39,10 +39,13 @@ const ArchSlider = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row mt-3 ps-3 pe-5">
-                <section className="col col-5 slider_body">
+                <section className="col-5 cold-md-5 col-lg-5 col-sm-12 slider_body">
                     <SkillsIcons skillsData={ArchSkills} />
-                    <button className="btn btn-secondary cursor-pointer">
-                        <a href={architecturePortfolio} download>
+                    <button className="btn btn-secondary cursor-pointer mb-3">
+                        <a
+                            href={architecturePortfolio}
+                            download
+                            aria-label="Descargar portafolio arquitectura completo">
                             <span>Portafolio completo</span>
                         </a>
                     </button>
@@ -52,7 +55,7 @@ const ArchSlider = () => {
                     loop={true}
                     navigation={true}
                     modules={[Navigation]}
-                    className="col col-7 slider">
+                    className="col-7 cold-md-7 col-lg-7 col-sm-12 slider">
                     {archData.map((archProject, index) => (
                         <SwiperSlide key={index}>
                             {archProject.image_src && (
@@ -67,8 +70,12 @@ const ArchSlider = () => {
                                 className={`slider_body ${
                                     !archProject.image_src && "slide_only_text"
                                 }`}>
-                                <h4 className="cursor_default">{archProject.name}</h4>
-                                <p className="cursor_default">{archProject.description}</p>
+                                <h4 className="cursor_default">
+                                    {archProject.name}
+                                </h4>
+                                <p className="cursor_default">
+                                    {archProject.description}
+                                </p>
                             </section>
                         </SwiperSlide>
                     ))}

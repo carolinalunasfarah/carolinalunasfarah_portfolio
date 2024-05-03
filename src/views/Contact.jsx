@@ -21,13 +21,13 @@ const Contact = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row about_row">
-                <article className="col col-5">
+                <article className="col-5 cold-md-5 col-lg-5 col-sm-12">
                     <h3 className="about_title cursor_default">¡Contáctame!</h3>
                 </article>
-                <article className="col col-7">
+                <article className="col-7 cold-md-7 col-lg-7 col-sm-12">
                     <section className="row contact">
-                        <article className="col-4">
-                            <ul className="list-unstyled me-4">
+                        <article className="col-4 cold-md-4 col-lg-4 col-sm-12">
+                            <ul className="list-unstyled mt-3">
                                 <li className="flex_col">
                                     <a
                                         href={curriculum}
@@ -41,8 +41,8 @@ const Contact = () => {
                                 </li>
                             </ul>
                         </article>
-                        <article className="col-4">
-                            <ul className="list-unstyled me-4">
+                        <article className="col-4 col-4 cold-md-4 col-lg-4 col-sm-12">
+                            <ul className="list-unstyled mt-3">
                                 <li className="flex_col contact">
                                     <a
                                         href="mailto:carolinalunasfarah@gmail.com"

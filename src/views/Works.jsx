@@ -27,7 +27,7 @@ const Works = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row pb-4">
-                <article className="col col-6 flex_col works">
+                <article className="col-6 col-md-6 col-lg-6 col-sm-12 flex_col works">
                     <i className="bi bi-boxes works_icons"></i>
                     <h3 className="mt-4 cursor_default">
                         Portafolio Arquitectura
@@ -46,7 +46,7 @@ const Works = () => {
                         <span>Portafolio Arquitectura</span>
                     </button>
                 </article>
-                <article className="col col-6 flex_col works">
+                <article className="col-6 col-md-6 col-lg-6 col-sm-12 flex_col works">
                     <i className="bi bi-code-slash works_icons"></i>
                     <h3 className="mt-4 cursor_default">
                         Portafolio Programación

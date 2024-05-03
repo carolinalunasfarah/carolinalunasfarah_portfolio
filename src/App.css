@@ -201,6 +201,10 @@ header {
 }
 
 /* Skills */
+.skills {
+  text-align: center;
+}
+
 .skills img {
     height: 2rem;
 }

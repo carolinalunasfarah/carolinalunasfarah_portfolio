@@ -4,9 +4,9 @@ import Photography from "/assets/icons/hobbies_photography.png";
 const Hobbies = () => {
     return (
         <>
-            <section className="row about-row hobbies mt-4">
-                <article className="col col-6">
-                    <ul className="list-unstyled">
+            <section className="row about_row hobbies">
+                <article className="col-6 cold-md-6 col-lg-6 col-sm-12">
+                    <ul className="list-unstyled mt-3">
                         <li className="flex_col">
                             <img src={Embroidery} alt="Embroidery icon" />
                             <h4 className="mt-4 cursor_default">Bordados</h4>
@@ -29,8 +29,8 @@ const Hobbies = () => {
                         </li>
                     </ul>
                 </article>
-                <article className="col col-6">
-                    <ul className="list-unstyled">
+                <article className="col-6 cold-md-6 col-lg-6 col-sm-12">
+                    <ul className="list-unstyled mt-3">
                         <li className="flex_col">
                             <img src={Photography} alt="Photography icon" />
                             <h4 className="mt-4 cursor_default">

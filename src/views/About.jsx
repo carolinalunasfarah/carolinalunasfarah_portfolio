@@ -52,10 +52,10 @@ const About = () => {
                 <NavigationBreadcrumb paths={breadcrumbPaths} />
             </section>
             <section className="row about_row">
-                <article className="col col-3 flex_col">
+                <article className="col-3 cold-md-3 col-lg-3 col-sm-12 flex_col">
                     <h3 className="about_title cursor_default">¡Hola!</h3>
                 </article>
-                <article className="col col-9">
+                <article className="col-9 cold-md-9 col-lg-9 col-sm-12">
                     <p className="about_text cursor_default">
                         Mi nombre es <strong>Carolina Lunas Farah</strong>, soy{" "}
                         <strong>Arquitecta</strong> titulada de la Universidad
@@ -82,7 +82,7 @@ const About = () => {
                         detallista, me gusta el trabajo en equipo, así como
                         también el trabajo en solitario.
                     </p>
-                    <article className="col col-12 flex_col mt-4">
+                    <article className="col-12 cold-md-12 col-lg-12 col-sm-12 flex_col mt-4">
                         <button
                             onClick={handleClick}
                             className="btn btn-secondary cursor-pointer"

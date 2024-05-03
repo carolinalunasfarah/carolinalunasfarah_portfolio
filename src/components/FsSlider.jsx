@@ -40,7 +40,7 @@ const FsSlider = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row mt-3 ps-3 pe-5">
-                <section className="col col-5 slider_body">
+                <section className="col-5 cold-md-5 col-lg-5 col-sm-12 slider_body">
                     <SkillsIcons skillsData={FsSkills} />
                 </section>
                 <Swiper
@@ -62,8 +62,12 @@ const FsSlider = () => {
                                 />
                             </section>
                             <section className="py-3 slider_body">
-                                <h3 className="cursor_default">{fsProject.name}</h3>
-                                <p className="cursor_default">{fsProject.description}</p>
+                                <h3 className="cursor_default">
+                                    {fsProject.name}
+                                </h3>
+                                <p className="cursor_default">
+                                    {fsProject.description}
+                                </p>
                                 <section>
                                     {fsProject.website_url && (
                                         <button
