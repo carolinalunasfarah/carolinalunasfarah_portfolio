@@ -15,6 +15,9 @@ import { ArchitectureData } from "../data/ArchProjects.jsx";
 import { ArchSkills } from "../data/ArchSkills.jsx";
 import ArchitecturePortfolio from "/calf_architecture_portfolio.pdf";
 
+// lazy load
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const ArchSlider = () => {
     const archData = ArchitectureData;
 
@@ -60,7 +63,7 @@ const ArchSlider = () => {
                         <SwiperSlide key={index}>
                             {archProject.image_src && (
                                 <section className="flex_col">
-                                    <img
+                                    <LazyLoadImage
                                         src={archProject.image_src}
                                         alt={`${archProject.name} + "website image"`}
                                     />

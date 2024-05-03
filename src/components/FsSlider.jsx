@@ -14,6 +14,9 @@ import SkillsIcons from "./SkillsIcons.jsx";
 import { FullstackData } from "../data/FsProjects.jsx";
 import { FsSkills } from "../data/FsSkills.jsx";
 
+// lazy load
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const FsSlider = () => {
     const fsData = FullstackData;
 
@@ -55,7 +58,7 @@ const FsSlider = () => {
                     {fsData.map((fsProject, index) => (
                         <SwiperSlide key={index}>
                             <section className="flex_col">
-                                <img
+                                <LazyLoadImage
                                     src={fsProject.image_src}
                                     alt={fsProject.name}
                                     className="rounded-4"
