@@ -1,6 +1,9 @@
 import Embroidery from "/assets/icons/hobbies_embroidery.png";
 import Photography from "/assets/icons/hobbies_photography.png";
 
+// lazy load
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Hobbies = () => {
     return (
         <>
@@ -8,7 +11,10 @@ const Hobbies = () => {
                 <article className="col-6 cold-md-6 col-lg-6 col-sm-12">
                     <ul className="list-unstyled mt-3">
                         <li className="flex_col">
-                            <img src={Embroidery} alt="Embroidery icon" />
+                            <LazyLoadImage
+                                src={Embroidery}
+                                alt="Embroidery icon"
+                            />
                             <h4 className="mt-4 cursor_default">Bordados</h4>
                             <p className="mt-3 cursor_default">
                                 Uno de mis principales hobbies tiene que ver con
@@ -32,7 +38,10 @@ const Hobbies = () => {
                 <article className="col-6 cold-md-6 col-lg-6 col-sm-12">
                     <ul className="list-unstyled mt-3">
                         <li className="flex_col">
-                            <img src={Photography} alt="Photography icon" />
+                            <LazyLoadImage
+                                src={Photography}
+                                alt="Photography icon"
+                            />
                             <h4 className="mt-4 cursor_default">
                                 Fotografía análoga
                             </h4>
