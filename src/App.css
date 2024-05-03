@@ -132,7 +132,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 28rem;
+    height: 28rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -293,9 +293,8 @@ footer i {
     margin-right: 2rem;
 }
 
-@media screen and (min-width: 576px) {
-  header {
-    background-image: url("/assets/img/bg-header-small.webp");
-    width: 100%;
-}
+@media screen and (max-width: 576px) {
+    header {
+        background-image: url("/assets/img/bg-header-small.webp");
+    }
 }
