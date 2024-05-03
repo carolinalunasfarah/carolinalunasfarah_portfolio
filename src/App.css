@@ -119,7 +119,7 @@ nav i {
 
 .active {
     font-weight: 700;
-    color: var(--color-purple) !important;
+    color: var(--color-purplemedium) !important;
 }
 
 .inactive {
@@ -291,4 +291,11 @@ footer section {
 footer i {
     font-size: 2rem;
     margin-right: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    background-image: url("/assets/img/bg-header-small.webp");
+    width: 100%;
+}
 }
