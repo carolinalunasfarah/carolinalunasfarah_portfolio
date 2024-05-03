@@ -85,7 +85,8 @@ const About = () => {
                     <article className="col col-12 flex_col mt-4">
                         <button
                             onClick={handleClick}
-                            className="btn btn-secondary cursor-pointer">
+                            className="btn btn-secondary cursor-pointer"
+                            aria-label="Ver sección Hobbies">
                             <span>Ver Hobbies</span>
                         </button>
                     </article>

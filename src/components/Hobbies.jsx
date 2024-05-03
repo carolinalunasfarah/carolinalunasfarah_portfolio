@@ -21,7 +21,8 @@ const Hobbies = () => {
                                 <a
                                     href="https://www.instagram.com/ninaleborda/"
                                     target="_blank"
-                                    rel="noopener noreferrer">
+                                    rel="noopener noreferrer"
+                                    aria-label="Ir a Instagram de Bordados">
                                     <span>Ver bordados</span>
                                 </a>
                             </button>
@@ -46,7 +47,8 @@ const Hobbies = () => {
                                 <a
                                     href="https://www.lomography.es/homes/ninalemoons"
                                     target="_blank"
-                                    rel="noopener noreferrer">
+                                    rel="noopener noreferrer"
+                                    aria-label="Ir a página de Lomography">
                                     <span>Ver fotografías</span>
                                 </a>
                             </button>

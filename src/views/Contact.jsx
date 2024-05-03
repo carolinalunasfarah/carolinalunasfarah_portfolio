@@ -29,7 +29,10 @@ const Contact = () => {
                         <article className="col-4">
                             <ul className="list-unstyled me-4">
                                 <li className="flex_col">
-                                    <a href={curriculum} download>
+                                    <a
+                                        href={curriculum}
+                                        aria-label="Descargar Curriculum"
+                                        download>
                                         <i className="bi bi-file-earmark-person"></i>
                                     </a>
                                     <p className="mb-4 cursor_default">
@@ -41,10 +44,14 @@ const Contact = () => {
                         <article className="col-4">
                             <ul className="list-unstyled me-4">
                                 <li className="flex_col contact">
-                                    <a href="mailto:carolinalunasfarah@gmail.com">
+                                    <a
+                                        href="mailto:carolinalunasfarah@gmail.com"
+                                        aria-label="Enviar correo electrónico">
                                         <i className="bi bi-envelope-at-fill"></i>
                                     </a>
-                                    <p className="mb-4 cursor_default">Envíame un correo</p>
+                                    <p className="mb-4 cursor_default">
+                                        Envíame un correo
+                                    </p>
                                 </li>
                             </ul>
                         </article>

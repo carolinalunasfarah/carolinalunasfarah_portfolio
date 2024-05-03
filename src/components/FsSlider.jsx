@@ -72,7 +72,8 @@ const FsSlider = () => {
                                                     fsProject.website_url
                                                 )
                                             }
-                                            className="btn btn-primary cursor-pointer me-4">
+                                            className="btn btn-primary cursor-pointer me-4"
+                                            aria-label="Visitar página">
                                             <span>Visita esta página</span>
                                         </button>
                                     )}
@@ -80,7 +81,8 @@ const FsSlider = () => {
                                         onClick={() =>
                                             handleClick(fsProject.rep_url)
                                         }
-                                        className="btn btn-secondary cursor-pointer">
+                                        className="btn btn-secondary cursor-pointer"
+                                        aria-label="Visitar código">
                                         <span>Ver código</span>
                                     </button>
                                 </section>

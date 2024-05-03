@@ -11,7 +11,8 @@ const Footer = () => {
                     <a
                         href="https://www.linkedin.com/in/carolina-lunas/"
                         target="_blank"
-                        rel="noopener noreferrer">
+                        rel="noopener noreferrer"
+                        aria-label="Ir a página de LinkedIn">
                         <i className="bi bi-linkedin"></i>
                     </a>
                 </article>
@@ -19,7 +20,8 @@ const Footer = () => {
                     <a
                         href="https://github.com/carolinalunasfarah"
                         target="_blank"
-                        rel="noopener noreferrer">
+                        rel="noopener noreferrer"
+                        aria-label="Ir a página de GitHub">
                         <i className="bi bi-github"></i>
                     </a>
                 </article>
