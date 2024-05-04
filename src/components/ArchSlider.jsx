@@ -41,10 +41,10 @@ const ArchSlider = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row mt-3 ps-3 pe-5">
-                <section className="col-5 cold-md-5 col-lg-5 col-sm-12 slider_body">
+            <section className="row about_row">
+                <section className="col-5 col-md-5 col-lg-5 col-sm-12 slider_body">
                     <SkillsIcons skillsData={ArchSkills} />
-                    <button className="btn btn-secondary cursor-pointer mb-3">
+                    <button className="btn btn-secondary cursor-pointer btn_arch">
                         <a
                             href={architecturePortfolio}
                             download
@@ -58,7 +58,7 @@ const ArchSlider = () => {
                     loop={true}
                     navigation={true}
                     modules={[Navigation]}
-                    className="col-7 cold-md-7 col-lg-7 col-sm-12 slider">
+                    className="col-7 col-md-7 col-lg-7 col-sm-12 slider arch_body">
                     {archData.map((archProject, index) => (
                         <SwiperSlide key={index}>
                             {archProject.image_src && (

@@ -26,9 +26,9 @@ const Works = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row pb-4">
+            <section className="row about_row pb-4">
                 <article className="col-6 col-md-6 col-lg-6 col-sm-12 flex_col works">
-                    <i className="bi bi-boxes works_icons"></i>
+                    <i className="bi bi-boxes"></i>
                     <h3 className="mt-4 cursor_default">
                         Portafolio Arquitectura
                     </h3>
@@ -47,7 +47,7 @@ const Works = () => {
                     </button>
                 </article>
                 <article className="col-6 col-md-6 col-lg-6 col-sm-12 flex_col works">
-                    <i className="bi bi-code-slash works_icons"></i>
+                    <i className="bi bi-code-slash"></i>
                     <h3 className="mt-4 cursor_default">
                         Portafolio Programación
                     </h3>

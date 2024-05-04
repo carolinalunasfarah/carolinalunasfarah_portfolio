@@ -8,7 +8,7 @@ const Hobbies = () => {
     return (
         <>
             <section className="row about_row hobbies">
-                <article className="col-6 cold-md-6 col-lg-6 col-sm-12">
+                <article className="col-6 col-md-6 col-lg-6 col-sm-12">
                     <ul className="list-unstyled mt-3">
                         <li className="flex_col">
                             <LazyLoadImage
@@ -23,7 +23,7 @@ const Hobbies = () => {
                                 relacionados a la naturaleza, creación de
                                 patrones y buscar combinaciones de colores.
                             </p>
-                            <button className="btn btn-tertiary cursor-pointer">
+                            <button className="btn btn-tertiary cursor-pointer flex_col">
                                 <a
                                     href="https://www.instagram.com/ninaleborda/"
                                     target="_blank"
@@ -35,7 +35,7 @@ const Hobbies = () => {
                         </li>
                     </ul>
                 </article>
-                <article className="col-6 cold-md-6 col-lg-6 col-sm-12">
+                <article className="col-6 col-md-6 col-lg-6 col-sm-12">
                     <ul className="list-unstyled mt-3">
                         <li className="flex_col">
                             <LazyLoadImage
@@ -52,7 +52,7 @@ const Hobbies = () => {
                                 ciudades y la distinta flora que se encuentra en
                                 nuestro país.
                             </p>
-                            <button className="btn btn-tertiary cursor-pointer">
+                            <button className="btn btn-tertiary cursor-pointer flex_col">
                                 <a
                                     href="https://www.lomography.es/homes/ninalemoons"
                                     target="_blank"

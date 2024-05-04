@@ -149,6 +149,7 @@ header h1 {
 }
 
 header h3 {
+    width: 50rem;
     font-weight: 600;
     text-align: center;
 }
@@ -197,14 +198,18 @@ header h3 {
     line-height: 1.8;
 }
 
-.works_icons {
+.works i {
     font-size: 90px;
     color: var(--color-purple);
 }
 
 /* Skills */
 .skills {
+    display: flex;
+    justify-content: center;
+    align-content: start;
     text-align: center;
+    padding-top: 1rem;
 }
 
 .skills img {
@@ -219,7 +224,9 @@ header h3 {
 
 /* Slider */
 .slider {
-    max-height: 50rem;
+    height: 50rem;
+    margin-top: 1rem;
+    padding: 1rem 0rem;
 }
 
 .slider img {
@@ -256,11 +263,6 @@ header h3 {
 }
 
 /* Contact */
-.contact {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .contact p {
     text-align: center;
 }
@@ -296,11 +298,10 @@ footer i {
 }
 
 @media screen and (max-width: 576px) {
+    /* navigation   */
     nav {
         padding: 0.2rem 0.8rem;
-        
     }
-
     nav i {
         scale: 0.8;
     }
@@ -310,15 +311,127 @@ footer i {
         font-size: 14px;
     }
 
+    /* header */
     header {
         background-image: none;
         background-color: rgba(200, 200, 200, 0.2);
     }
 
     header h3 {
-        width: 75vh;
+        width: 15rem;
     }
 
+    /* about */
+    .about_title {
+        font-size: 36px;
+    }
+
+    .about_row {
+        flex-direction: column;
+        padding: 0.8rem 0;
+    }
+
+    .about_row h3 {
+        padding-bottom: 1rem;
+    }
+    .about_text {
+        padding: 0 0.8rem 0 0;
+        font-size: 14px;
+    }
+
+    /* about hobbies */
+    .hobbies p {
+        margin: 0rem;
+        padding: 0 1rem;
+        font-size: 14px;
+    }
+
+    .hobbies img {
+        scale: 0.75;
+    }
+
+    .hobbies button {
+        margin: 0.8rem;
+    }
+
+    /* works */
+    .works i {
+        font-size: 5rem;
+    }
+
+    .works p {
+        width: 100%;
+    }
+
+    .works button,
+    .slider_body button {
+        height: 4rem;
+    }
+
+    /* skills */
+    .skills {
+        margin: 0;
+    }
+
+    /* slider */
+    .slider {
+        height: 45rem;
+    }
+
+    .arch_body {
+        height: 80rem;
+    }
+
+    .slider_body h4 {
+        width: 100%;
+        height: 3rem;
+        font-size: 16px;
+    }
+
+    .slide_only_text h4 {
+        font-size: 16px;
+        height: 5rem;
+    }
+
+    .slider_body p,
+    .slide_only_text p {
+        margin-top: 0;
+        font-size: 14px;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .slider_body .btn_arch {
+        height: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .slider_body button {
+        height: 2rem;
+        margin: 0.8rem;
+        align-content: center;
+    }
+
+    .slider_body button span {
+        font-size: 14px;
+    }
+
+    /* contact */
+    .contact {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact i {
+        font-size: 45px;
+    }
+
+    .contact p {
+        width: 6rem;
+        font-size: 14px;
+    }
+
+    /* footer */
     footer small {
         width: 25vh;
     }

@@ -42,7 +42,7 @@ const FsSlider = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row mt-3 ps-3 pe-5">
+            <section className="row about_row">
                 <section className="col-5 cold-md-5 col-lg-5 col-sm-12 slider_body">
                     <SkillsIcons skillsData={FsSkills} />
                 </section>
@@ -54,7 +54,7 @@ const FsSlider = () => {
                     }}
                     navigation={true}
                     modules={[Pagination, Navigation]}
-                    className="col col-7 slider">
+                    className="col-7 col-md-7 slider">
                     {fsData.map((fsProject, index) => (
                         <SwiperSlide key={index}>
                             <section className="flex_col">
@@ -65,13 +65,13 @@ const FsSlider = () => {
                                 />
                             </section>
                             <section className="py-3 slider_body">
-                                <h3 className="cursor_default">
+                                <h4 className="cursor_default">
                                     {fsProject.name}
-                                </h3>
+                                </h4>
                                 <p className="cursor_default">
                                     {fsProject.description}
                                 </p>
-                                <section>
+                                <section className="flex_col">
                                     {fsProject.website_url && (
                                         <button
                                             onClick={() =>
@@ -79,7 +79,7 @@ const FsSlider = () => {
                                                     fsProject.website_url
                                                 )
                                             }
-                                            className="btn btn-primary cursor-pointer me-4"
+                                            className="btn btn-primary cursor-pointer flex_col me-4"
                                             aria-label="Visitar página">
                                             <span>Visita esta página</span>
                                         </button>
@@ -88,7 +88,7 @@ const FsSlider = () => {
                                         onClick={() =>
                                             handleClick(fsProject.rep_url)
                                         }
-                                        className="btn btn-secondary cursor-pointer"
+                                        className="btn btn-secondary cursor-pointer flex_col"
                                         aria-label="Visitar código">
                                         <span>Ver código</span>
                                     </button>
