@@ -367,12 +367,21 @@ footer i {
     }
 
     /* works */
+    .works {
+      width: 100%;
+    }
+    
     .works i {
         font-size: 5rem;
     }
 
+    .works h3 {
+      text-align: center;
+      height: 3rem;
+    }
+
     .works p {
-        width: 100%;
+        width: 18rem;
     }
 
     .works button,
@@ -395,7 +404,6 @@ footer i {
 
     .slider {
         min-width: 25rem;
-        border: 1px solid black;
     }
 
     .arch_body {
