@@ -341,8 +341,14 @@ footer i {
     }
 
     /* about hobbies */
+    .hobbies h4 {
+        text-align: center;
+        font-size: 18px;
+    }
+
     .hobbies p {
-        margin: 0rem;
+        width: 16rem;
+        margin: 2rem;
         padding: 0 1rem;
         font-size: 14px;
     }
