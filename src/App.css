@@ -107,6 +107,11 @@ nav {
 
 nav i {
     font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav_items {
+  margin: 0 1rem 1rem;
 }
 
 .active,
@@ -320,6 +325,11 @@ footer i {
     .inactive {
         font-size: 14px;
     }
+
+    /* navigation breadcrumb */
+    .navigation_breadcrumb {
+      padding-bottom: 3rem;
+  }
 
     /* header */
     header {
