@@ -32,6 +32,10 @@ export const FsSkills = [
         icon_src: "/assets/icons/fs_skills/fs_skills_node.webp",
     },
     {
+        name: "Rest API",
+        icon_src: "/assets/icons/fs_skills/fs_skills_restapi.webp",
+    },
+    {
         name: "Git",
         icon_src: "/assets/icons/fs_skills/fs_skills_git.webp",
     },

@@ -32,6 +32,8 @@ const Contact = () => {
                                     <a
                                         href={curriculum}
                                         aria-label="Descargar Curriculum"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         download>
                                         <i className="bi bi-file-earmark-person"></i>
                                     </a>

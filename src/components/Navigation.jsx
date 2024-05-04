@@ -7,11 +7,11 @@ const Navigation = () => {
         <>
             <nav>
                 <section>
-                    <NavLink className="active nav_brand" to="/">
+                    <NavLink className="active" to="/">
                         CAROLINA LUNAS FARAH
                     </NavLink>
                 </section>
-                <section className="d-flex pt-4">
+                <section className="d-flex pt-4 nav_icons">
                     <ul className="list-unstyled me-4">
                         <li className="flex_col">
                             <i className="bi bi-person me-2"></i>
