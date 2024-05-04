@@ -26,7 +26,7 @@ const Contact = () => {
                 </article>
                 <article className="col-7 col-md-7 col-lg-7 col-sm-12">
                     <section className="row contact">
-                        <article className="col-4 col-md-4 col-lg-4 col-sm-12">
+                        <article className="col-6 col-md-6 col-lg-6 col-sm-12">
                             <ul className="list-unstyled mt-3">
                                 <li className="flex_col">
                                     <a
@@ -41,7 +41,7 @@ const Contact = () => {
                                 </li>
                             </ul>
                         </article>
-                        <article className="col-4 col-md-4 col-lg-4 col-sm-12">
+                        <article className="col-6 col-md-6 col-lg-6 col-sm-12">
                             <ul className="list-unstyled mt-3">
                                 <li className="flex_col contact">
                                     <a
