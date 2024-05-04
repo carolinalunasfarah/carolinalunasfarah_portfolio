@@ -13,7 +13,7 @@ const SkillsIcons = ({ skillsData }) => {
                                 src={skill.icon_src}
                                 alt={skill.name}
                             />
-                            <p className="mt-3 cursor_default">{skill.name}</p>
+                            <p className="cursor_default">{skill.name}</p>
                         </li>
                     </ul>
                 </article>

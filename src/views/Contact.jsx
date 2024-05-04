@@ -25,8 +25,8 @@ const Contact = () => {
                     <h3 className="about_title cursor_default">¡Contáctame!</h3>
                 </article>
                 <article className="col-7 col-md-7 col-lg-7 col-sm-12">
-                    <section className="row contact">
-                        <article className="col-6 col-md-6 col-lg-6 col-sm-12">
+                    <section className="row">
+                        <article className="col-6 col-md-6 col-lg-6 col-sm-6">
                             <ul className="list-unstyled mt-3">
                                 <li className="flex_col">
                                     <a
@@ -35,13 +35,13 @@ const Contact = () => {
                                         download>
                                         <i className="bi bi-file-earmark-person"></i>
                                     </a>
-                                    <p className="mb-4 cursor_default">
+                                    <p className="cursor_default">
                                         Descarga mi CV para más información
                                     </p>
                                 </li>
                             </ul>
                         </article>
-                        <article className="col-6 col-md-6 col-lg-6 col-sm-12">
+                        <article className="col-6 col-md-6 col-lg-6 col-sm-6">
                             <ul className="list-unstyled mt-3">
                                 <li className="flex_col contact">
                                     <a
@@ -49,7 +49,7 @@ const Contact = () => {
                                         aria-label="Enviar correo electrónico">
                                         <i className="bi bi-envelope-at-fill"></i>
                                     </a>
-                                    <p className="mb-4 cursor_default">
+                                    <p className="cursor_default">
                                         Envíame un correo
                                     </p>
                                 </li>
