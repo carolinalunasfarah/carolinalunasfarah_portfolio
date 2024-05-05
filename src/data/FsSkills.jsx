@@ -20,10 +20,6 @@ export const FsSkills = [
         icon_src: "/assets/icons/fs_skills/fs_skills_react.webp",
     },
     {
-        name: "Nest JS",
-        icon_src: "/assets/icons/fs_skills/fs_skills_nest.webp",
-    },
-    {
         name: "PostgreSQL",
         icon_src: "/assets/icons/fs_skills/fs_skills_postgresql.webp",
     },
