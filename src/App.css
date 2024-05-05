@@ -290,7 +290,7 @@ header h3 {
 
 /* Footer */
 footer {
-    position: absolute bottom 0;
+    position: absolute bottom;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -323,7 +323,7 @@ footer i {
 
     .active,
     .inactive {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* navigation breadcrumb */
@@ -356,7 +356,7 @@ footer i {
 
     .about_text {
         padding: 0 0.8rem 0 0;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* about hobbies */
@@ -367,9 +367,10 @@ footer i {
 
     .hobbies p {
         width: 16rem;
+        height: 12rem;
         margin: 2rem;
         padding: 0 1rem;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .hobbies img {
@@ -469,11 +470,11 @@ footer i {
 
     .contact p {
         width: 6rem;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* footer */
     footer small {
-        width: 25vh;
+        width: 35vh;
     }
 }
