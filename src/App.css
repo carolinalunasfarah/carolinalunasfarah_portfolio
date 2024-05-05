@@ -111,7 +111,7 @@ nav i {
 }
 
 .nav_items {
-  margin: 0 1rem 1rem;
+    margin: 0 1rem 1rem;
 }
 
 .active,
@@ -328,13 +328,12 @@ footer i {
 
     /* navigation breadcrumb */
     .navigation_breadcrumb {
-      padding-bottom: 3rem;
-  }
+        padding-bottom: 3rem;
+    }
 
     /* header */
     header {
-        background-image: none;
-        background-color: rgba(200, 200, 200, 0.2);
+        background-image: url("/assets/img/bg-header-small.webp");
     }
 
     header h3 {
