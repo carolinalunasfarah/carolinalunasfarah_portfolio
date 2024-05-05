@@ -1,5 +1,5 @@
 # Portafolio 🐱‍💻
-Aplicación tipo portafolio profesional. Desarrollada en React y Vite para renderización, aplicando distintas vistas con sus respectivas rutas; estilos en CSS vanilla y Bootstrap.
+Aplicación tipo portafolio profesional.
 
 ## Desarrolada con
 ![CSS3](https://img.shields.io/badge/CSS3-grey?style=for-the-badge&logo=css3)
