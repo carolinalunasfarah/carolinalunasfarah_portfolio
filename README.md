@@ -11,5 +11,3 @@ Aplicación tipo portafolio profesional. Desarrollada en React y Vite para rende
 
 ![AdobePhotoshop](https://img.shields.io/badge/Photoshop-grey?style=for-the-badge&logo=adobephotoshop)
 ![AdobeIllustrator](https://img.shields.io/badge/Illustrator-grey?style=for-the-badge&logo=adobeillustrator)
-
-
