@@ -21,7 +21,7 @@ const Hobbies = () => {
                                 la búsqueda de formas de distracción y
                                 expresión, entre ellas está el bordado, ya sea
                                 relacionados a la naturaleza, creación de
-                                patrones y buscar combinaciones de colores.
+                                patrones o buscar combinaciones de colores.
                             </p>
                             <button className="btn btn-tertiary cursor-pointer flex_col">
                                 <a

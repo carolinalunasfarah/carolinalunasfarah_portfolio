@@ -66,7 +66,7 @@ const About = () => {
                     <p className="about_text cursor_default">
                         Además soy <strong>Programadora</strong> Full Stack
                         Javascript de la Academia Desafío Latam, tengo
-                        conocimientos de Frontend y Backend y tengo una gran
+                        conocimientos de Frontend y Backend; además de una gran
                         pasión por aprender de forma continua, y ser
                         programadora es estar constantemente en ese camino, por
                         lo que sigo aprendiendo y fortaleciendo mis
@@ -79,8 +79,8 @@ const About = () => {
                         los <strong>Bordados</strong> y a la{" "}
                         <strong>Fotografía Análoga</strong> de paisajes y la
                         ciudad en general. Me considero una persona eficiente y
-                        detallista, me gusta el trabajo en equipo, así como
-                        también el trabajo en solitario.
+                        detallista, me desempeño bien trabajando en equipo, así como
+                        también en solitario.
                     </p>
                     <article className="col-12 col-md-12 col-lg-12 col-sm-12 flex_col mt-4">
                         <button

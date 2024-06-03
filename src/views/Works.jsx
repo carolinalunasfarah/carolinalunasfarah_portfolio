@@ -33,8 +33,8 @@ const Works = () => {
                         Portafolio Programación
                     </h3>
                     <p className="mt-3 cursor_default">
-                        Aquí podrás revisar las aplicaciones desarrolladas
-                        durante la carrera, donde podrás visitar tanto el deploy
+                        Te invito a revisar las aplicaciones desarrolladas
+                        durante la carrera de Programación, donde podrás visitar tanto el deploy
                         de cada propuesta, como también revisar el código que
                         las compone. Además, puedes ver otros proyectos en los
                         repositorios de mi perfil de GitHub.
@@ -53,7 +53,7 @@ const Works = () => {
                     </h3>
                     <p className="mt-3 cursor_default">
                         Aquí podrás revisar algunas imágenes de proyectos que
-                        realicé durante la carrera, donde explico un poco de los
+                        realicé durante la carrera de Arquitectura, donde explico un poco los
                         proyectos y puedes ver lo generado para cada propuesta,
                         además puedes descargar mi portafolio completo en esta
                         sección.
