@@ -9,7 +9,7 @@ const Footer = () => {
             <section>
                 <article>
                     <a
-                        href="https://www.linkedin.com/in/carolina-lunas/"
+                        href="https://www.linkedin.com/in/carolinalunasfarah/"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Ir a página de LinkedIn">
