@@ -3,7 +3,7 @@ const SkillsIcons = ({ skillsData }) => {
         <section className="row skills">
             <h4 className="mb-5 cursor_default">
                 {" "}
-                <strong>Habilidades específicas</strong>
+                <strong>Stack Tecnológico</strong>
             </h4>
             {skillsData.map((skill, index) => (
                 <article className="col-6 col-md-6 col-lg-6 col-sm-6" key={index}>
