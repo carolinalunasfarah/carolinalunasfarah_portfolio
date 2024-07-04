@@ -32,21 +32,6 @@ export const FullstackData = [
             "https://github.com/carolinalunasfarah/Desafio-LATAM_PizzaMammaMia",
     },
     {
-        name: "Marketplace Frontend",
-        description: "Aplicación SPA tipo marketplace para compra y venta de artículos, registro y perfil de usuarios, y gestión de carrito de compras y favoritos. Desarrollada en React y Vite conectada a una API para contenido dinámico, aplicando distitnas vistas con sus respectivas rutas, contexto para manejo de estados; estilos en Bootstrap y CSS vanilla.",
-        image_src: "/assets/img/fullstack-img/frontend-marketplace.png",
-        website_url: "https://mimarketlatino.netlify.app/",
-        rep_url: "https://github.com/vnasp/marketplace-frontend-react-user",
-    },
-    {
-        name: "Marketplace Backend",
-        description: "API con base de datos PostgreSQL, documentada con Swagger, para gestión de usuarios autenticados con email o Google, creación y eliminación de productos, gestión de carrito de compras y sus respectivas órdenes; con manejo de seguridad de JWT y pruebas automatizadas con Jest.",
-        image_src: "/assets/img/fullstack-img/backend-marketplace.png",
-        website_url:
-            "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs/",
-        rep_url: "https://github.com/vnasp/marketplace-backend-react-user",
-    },
-    {
       name: "Portafolio Frontend",
       description: "Aplicación tipo portafolio profesional. Desarrollada en React y Vite para renderización, aplicando distintas vistas con sus respectivas rutas; estilos en CSS vanilla y Bootstrap.",
       image_src: "/assets/img/fullstack-img/frontend-portfolio.png",
