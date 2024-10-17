@@ -44,11 +44,27 @@ export const FullstackData = [
             "https://github.com/carolinalunasfarah/carolinalunasfarah_portfolio",
     },
     {
-      name: "Cuidado de Salud Frontend",
-      description:
-          "Aplicación SPA para seguimiento de cuidado de salud. Desarrollada en React con CSS vanilla, Bootstrap y gestión de usuarios y progreso con Firebase.",
-      image_src: "/assets/img/fullstack-img/frontend-health-care.png",
-      rep_url:
-          "https://github.com/carolinalunasfarah/healthcare-react-user",
-  },
+        name: "Marketplace Frontend | Proyecto grupal",
+        description:
+            "Aplicación SPA tipo marketplace para compra y venta de artículos, registro y perfil de usuarios, y gestión de carrito de compras y favoritos. Desarrollada en React y Vite conectada a una API para contenido dinámico, aplicando distitnas vistas con sus respectivas rutas, contexto para manejo de estados; estilos en Bootstrap y CSS vanilla.",
+        image_src: "/assets/img/fullstack-img/frontend-marketplace.png",
+        website_url: "https://mimarketlatino.netlify.app/",
+        rep_url: "https://github.com/vnasp/marketplace-frontend-react-user",
+    },
+    {
+        name: "Marketplace Backend | Proyecto grupal",
+        description:
+            "API con base de datos PostgreSQL, documentada con Swagger, para gestión de usuarios autenticados con email o Google, creación y eliminación de productos, gestión de carrito de compras y sus respectivas órdenes; con manejo de seguridad de JWT y pruebas automatizadas con Jest.",
+        image_src: "/assets/img/fullstack-img/backend-marketplace.png",
+        website_url:
+            "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs/",
+        rep_url: "https://github.com/vnasp/marketplace-backend-react-user",
+    },
+    {
+        name: "Cuidado de Salud Frontend",
+        description:
+            "Aplicación SPA para seguimiento de cuidado de salud. Desarrollada en React con CSS vanilla, Bootstrap y gestión de usuarios y progreso con Firebase.",
+        image_src: "/assets/img/fullstack-img/frontend-health-care.png",
+        rep_url: "https://github.com/carolinalunasfarah/healthcare-react-user",
+    },
 ];
