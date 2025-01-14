@@ -171,7 +171,7 @@ export const ArchitectureData = [
     },
     {
         name: "Elevaciones",
-        description: "Elevaciones con renderizado de árbole.s",
+        description: "Elevaciones con renderizado de árboles.",
         image_src: "/assets/img/architecture-img/2020/revit-06.jpg",
     },
     {

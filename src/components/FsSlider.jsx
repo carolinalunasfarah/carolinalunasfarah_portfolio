@@ -38,7 +38,7 @@ const FsSlider = () => {
                             to: "/works",
                         },
                         {
-                            text: "Fullstack",
+                            text: "Programación",
                         },
                     ]}></NavigationBreadcrumb>
             </section>

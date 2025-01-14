@@ -3,7 +3,7 @@ const Footer = () => {
         <footer>
             <section>
                 <small className="cursor_default">
-                    CALF 2024. Todos los derechos reservados.
+                    CALF 2025. Todos los derechos reservados.
                 </small>
             </section>
             <section>

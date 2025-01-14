@@ -1,7 +1,7 @@
 import NavigationBreadcrumb from "../components/NavigationBreadcrumb";
 
 // data
-import CV from "/calf_cv_2024.pdf";
+import CV from "/calf_cv_2025.pdf";
 
 const Contact = () => {
     const curriculum = CV;
