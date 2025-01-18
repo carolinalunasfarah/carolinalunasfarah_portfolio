@@ -506,7 +506,6 @@ footer i {
     .skills_slider {
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
     }
 
     .skills {
