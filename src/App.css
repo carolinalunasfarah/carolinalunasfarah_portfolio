@@ -511,7 +511,9 @@ footer i {
 
     .skills {
         justify-content: space-evenly;
-        min-width: 30rem;
+        min-width: auto;
+        width: 100%;
+        padding: 1rem;
     }
 
     .skills h4 {
