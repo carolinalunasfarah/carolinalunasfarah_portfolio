@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 // swiper components
 import { Swiper, SwiperSlide } from "swiper/react";
 // swiper styles
@@ -18,10 +19,19 @@ import { FsSkills } from "../data/FsSkills.jsx";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const FsSlider = () => {
+    const [videoUrl, setVideoUrl] = useState(null);
     const fsData = FullstackData;
 
     const handleClick = (url) => {
         window.open(url, "_blank");
+    };
+
+    const handleVideoClick = (url) => {
+        setVideoUrl(url);
+    };
+
+    const closeVideoPlayer = () => {
+        setVideoUrl(null);
     };
 
     return (
@@ -43,7 +53,7 @@ const FsSlider = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row skills_slider">
-                <section className="col-5 col-md-5 col-lg-5 col-sm-12 flex_col">
+                <section className="col-5 col-md-5 col-lg-5 col-sm-12 flex_col ps-4">
                     <SkillsIcons skillsData={FsSkills} />
                 </section>
                 <Swiper
@@ -71,7 +81,7 @@ const FsSlider = () => {
                                 <p className="cursor_default">
                                     {fsProject.description}
                                 </p>
-                                <section className="about_row">
+                                <section className="slider_links">
                                     {fsProject.website_url && (
                                         <button
                                             onClick={() =>
@@ -79,9 +89,21 @@ const FsSlider = () => {
                                                     fsProject.website_url
                                                 )
                                             }
-                                            className="btn btn-primary cursor-pointer flex_col me-4"
+                                            className="btn btn-secondary cursor-pointer flex_col me-4"
                                             aria-label="Visitar página">
                                             <span>Visita esta página</span>
+                                        </button>
+                                    )}
+                                    {fsProject.video_src && (
+                                        <button
+                                            onClick={() =>
+                                                handleVideoClick(
+                                                    fsProject.video_src
+                                                )
+                                            }
+                                            className="btn btn-secondary cursor-pointer flex_col me-4"
+                                            aria-label="Ver video">
+                                            <span>Ver video</span>
                                         </button>
                                     )}
                                     <button
@@ -98,6 +120,32 @@ const FsSlider = () => {
                     ))}
                 </Swiper>
             </section>
+
+            {/* Video Player */}
+            {videoUrl && (
+                <section
+                    className="video-player-overlay"
+                    onClick={closeVideoPlayer}>
+                    <article
+                        className="video-player"
+                        onClick={(e) => e.stopPropagation()}>
+                        <button
+                            className="close-button"
+                            onClick={closeVideoPlayer}>
+                            &times;
+                        </button>
+                        <video
+                            src={videoUrl}
+                            controls
+                            controlsList="nodownload noremoteplayback"
+                            disablePictureInPicture
+                            onContextMenu={(e) => e.preventDefault()}
+                            className="video-element">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </article>
+                </section>
+            )}
         </>
     );
 };

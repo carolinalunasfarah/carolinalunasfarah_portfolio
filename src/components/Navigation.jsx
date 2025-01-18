@@ -12,17 +12,17 @@ const Navigation = () => {
                     </NavLink>
                 </section>
                 <section className="d-flex pt-4">
-                    <ul className="list-unstyled nav_items">
+                    {/* <ul className="list-unstyled nav_items">
                         <li className="flex_col">
-                            <i className="bi bi-person"></i>
+                            <i className="bi bi-person-fill"></i>
                             <NavLink className={activeClass} to="/about">
                                 Sobre mi
                             </NavLink>
                         </li>
-                    </ul>
+                    </ul> */}
                     <ul className="list-unstyled nav_items">
                         <li className="flex_col">
-                            <i className="bi bi-folder2"></i>
+                            <i className="bi bi-folder-fill"></i>
                             <NavLink className={activeClass} to="/works">
                                 Trabajos
                             </NavLink>
@@ -30,7 +30,7 @@ const Navigation = () => {
                     </ul>
                     <ul className="list-unstyled nav_items">
                         <li className="flex_col">
-                            <i className="bi bi-envelope"></i>
+                            <i className="bi bi-envelope-fill"></i>
                             <NavLink className={activeClass} to="/contact">
                                 Contacto
                             </NavLink>

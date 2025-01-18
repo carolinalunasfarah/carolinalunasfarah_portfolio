@@ -14,7 +14,6 @@ import ArchSlider from "./components/ArchSlider";
 
 // views
 import Contact from "./views/Contact";
-import About from "./views/About";
 import Works from "./views/Works";
 import NotFound from "./views/NotFound"
 
@@ -25,8 +24,6 @@ function App() {
 
             <Routes>
                 <Route path="/" element={<Home />} />
-                
-                <Route path="/about" element={<About />} />
 
                 <Route path="/works" element={<Works />} />
                 <Route path="/works/architecture" element={<ArchSlider />} />

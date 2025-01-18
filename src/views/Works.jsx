@@ -26,11 +26,11 @@ const Works = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row about_row pb-4">
+            <section className="row pb-4 works_section">
                 <article className="col-6 col-md-6 col-lg-6 col-sm-12 flex_col works">
                     <i className="bi bi-code-slash"></i>
                     <h3 className="mt-4 cursor_default">
-                        Portafolio Programación
+                        Programación
                     </h3>
                     <p className="mt-3 cursor_default">
                         Te invito a revisar las aplicaciones desarrolladas
@@ -41,7 +41,7 @@ const Works = () => {
                     </p>
                     <button
                         onClick={() => handleClick("/works/fullstack")}
-                        className="btn btn-primary cursor-pointer mt-2"
+                        className="btn btn-secondary cursor-pointer mt-2"
                         aria-label="Ver Portafolio Programación">
                         <span>Portafolio Programación</span>
                     </button>
@@ -49,7 +49,7 @@ const Works = () => {
                 <article className="col-6 col-md-6 col-lg-6 col-sm-12 flex_col works">
                     <i className="bi bi-boxes"></i>
                     <h3 className="mt-4 cursor_default">
-                        Portafolio Arquitectura
+                        Arquitectura
                     </h3>
                     <p className="mt-3 cursor_default">
                         Aquí podrás revisar algunas imágenes de proyectos que
@@ -60,7 +60,7 @@ const Works = () => {
                     </p>
                     <button
                         onClick={() => handleClick("/works/architecture")}
-                        className="btn btn-primary cursor-pointer mt-2"
+                        className="btn btn-secondary cursor-pointer mt-2"
                         aria-label="Ver Portafolio Arquitectura">
                         <span>Portafolio Arquitectura</span>
                     </button>

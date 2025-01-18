@@ -1,27 +1,27 @@
 export const ArchSkills = [
   {
     name: "Autocad",
-    icon_src: "/assets/icons/arch_skills/arch_skills_autocad.webp"
+    icon_src: "/assets/icons/arch_skills/arch_skills_autocad.png"
   },
   {
     name: "Adobe Illustrator",
-    icon_src: "/assets/icons/arch_skills/arch_skills_illustrator.webp"
+    icon_src: "/assets/icons/arch_skills/arch_skills_illustrator.png"
   },
   {
     name: "Adobe Indesign",
-    icon_src: "/assets/icons/arch_skills/arch_skills_indesign.webp"
+    icon_src: "/assets/icons/arch_skills/arch_skills_indesign.png"
   },
   {
     name: "Adobe Photoshop",
-    icon_src: "/assets/icons/arch_skills/arch_skills_photoshop.webp"
+    icon_src: "/assets/icons/arch_skills/arch_skills_photoshop.png"
   },
   {
     name: "Revit",
-    icon_src: "/assets/icons/arch_skills/arch_skills_revit.webp"
+    icon_src: "/assets/icons/arch_skills/arch_skills_revit.png"
   },
   {
     name: "SketchUp",
-    icon_src: "/assets/icons/arch_skills/arch_skills_sketchup.webp"
+    icon_src: "/assets/icons/arch_skills/arch_skills_sketchup.png"
   }
 ]
 

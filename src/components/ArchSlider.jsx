@@ -43,7 +43,7 @@ const ArchSlider = () => {
             </section>
             <section>
                 <section className="row skills_slider">
-                    <section className="col-5 col-md-5 col-lg-5 col-sm-12 flex_col">
+                    <section className="col-5 col-md-5 col-lg-5 col-sm-12 flex_col ps-4">
                         <SkillsIcons skillsData={ArchSkills} />
                         <button className="btn btn-secondary cursor-pointer btn_arch">
                             <a
@@ -67,6 +67,7 @@ const ArchSlider = () => {
                                         <LazyLoadImage
                                             src={archProject.image_src}
                                             alt={`${archProject.name} + "website image"`}
+                                            className="rounded-4"
                                         />
                                     </section>
                                 )}

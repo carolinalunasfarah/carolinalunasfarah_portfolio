@@ -20,11 +20,11 @@ const Contact = () => {
                         },
                     ]}></NavigationBreadcrumb>
             </section>
-            <section className="row about_row contact">
-                <article className="col-5 col-md-5 col-lg-5 col-sm-12 flex_col">
-                    <h3 className="about_title cursor_default">¡Contáctame!</h3>
+            <section className="row contact">
+                <article className="col-12 col-md-12 col-lg-12 col-sm-12 flex_col">
+                    <h1 className="about_title cursor_default">¡Contáctame!</h1>
                 </article>
-                <article className="col-7 col-md-7 col-lg-7 col-sm-12">
+                <article className="col-7 col-md-7 col-lg-7 col-sm-12 flex_col w-100">
                     <section className="row">
                         <article className="col-6 col-md-6 col-lg-6 col-sm-6">
                             <ul className="list-unstyled mt-3">

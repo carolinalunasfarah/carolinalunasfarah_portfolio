@@ -3,14 +3,17 @@
 :root {
     --font-default: "Montserrat", sans-serif;
 
-    --color-purple: #a66ff2;
-    --color-purplemedium: #553980;
-    --color-purpledark: #34234d;
+    --color-primary: #493566;
+    --color-onPrimary: #D1D1D1;
 
-    --color-orange: #f4c485;
-    --color-orangemedium: #a07031;
+    --color-secondary: #4A1C1C;
+    --color-onSecondary: #B5B5B5;
 
-    --color-gray: #565354;
+    --color-background: #201B27;
+    --color-onBackground: #AEA3BF;
+
+    --color-surface: #B6AAC8;
+    --color-onSurface: #1F1A26;
 }
 
 body {

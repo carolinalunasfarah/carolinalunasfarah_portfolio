@@ -11,7 +11,7 @@ const NotFound = () => {
                 </p>
                 <Link to="/">
                     <button
-                        className="btn btn-primary cursor-pointer mt-2"
+                        className="btn btn-secondary cursor-pointer mt-2"
                         aria-label="Redirección al Home">
                         <span>Volvamos al Home</span>
                     </button>
