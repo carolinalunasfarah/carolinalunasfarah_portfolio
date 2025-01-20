@@ -1,6 +1,4 @@
-
 const About = () => {
-
     return (
         <>
             <div className="about_row">
@@ -11,10 +9,10 @@ const About = () => {
                     <article className="col-8 col-md-8 col-lg-8 col-sm-12">
                         <p className="about_text cursor_default mb-4">
                             <strong>Arquitecta</strong> titulada de la
-                            Universidad de Chile, con interés en el urbanismo,
+                            Universidad de Chile, con interés en urbanismo,
                             paisajismo, arquitectura vernacular y el uso de
-                            energías renovables no convencionales para el
-                            funcionamiento de la ciudad.
+                            energías renovables no convencionales en la
+                            planificación urbana.
                         </p>
                     </article>
                 </section>
@@ -25,13 +23,16 @@ const About = () => {
                     </article>
                     <article className="col-8 col-md-8 col-lg-8 col-sm-12">
                         <p className="about_text cursor_default mb-4">
-                            <strong>Programadora Full Stack JavaScript
-                            y Android</strong> de la Academia Desafío Latam, tengo
-                            conocimientos de Frontend, Backend y generaciónde
-                            aplicaciones web; además de una gran pasión por
-                            aprender de forma continua, y ser programadora es
-                            estar constantemente en ese camino, por lo que sigo
-                            aprendiendo y fortaleciendo mis conocimientos.
+                            <strong>
+                                Desarrolladora Full Stack JavaScript y Android
+                            </strong>{" "}
+                            con formación en Academia Desafío Latam, y
+                            experiencia en Frontend, Backend y desarrollo de
+                            aplicaciones web. Como arquitecta, combino mi pasión
+                            por crear soluciones tecnológicas innovadoras y
+                            accesibles con una perspectiva única que integra
+                            pensamiento visual, habilidades analíticas y enfoque
+                            en la eficiencia.
                         </p>
                     </article>
                 </section>
@@ -42,14 +43,13 @@ const About = () => {
                     </article>
                     <article className="col-8 col-md-8 col-lg-8 col-sm-12 flex_col">
                         <p className="about_text cursor_default mb-4">
-                            Por otro lado, puedo decir también que soy una
-                            persona muy curiosa y me gusta aprender distintas
-                            formas de expresión de creatividad, por lo que me
-                            dedico también a los <strong>bordados</strong> y a
-                            la <strong>fotografía análoga</strong> de paisajes y
-                            la ciudad en general. Me considero una persona
+                            Además, soy una persona muy curiosa y disfruto
+                            explorar diversas formas de expresión creativa. Me
+                            dedico también al <strong>bordado</strong> y a la{" "}
+                            <strong>fotografía análoga</strong> de paisajes y la
+                            esencia de la ciudad. Me considero una persona
                             eficiente y detallista, me desempeño bien trabajando
-                            en equipo, así como también en solitario.
+                            tanto en equipo como de manera independiente.
                         </p>
                     </article>
                 </section>
