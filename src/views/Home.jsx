@@ -6,10 +6,10 @@ const Home = () => {
             <header>
                 <section className="flex_col">
                     <h1 className="cursor_default">¡Hola!</h1>
-                    <h4 className="cursor_default">
+                    <h2 className="cursor_default">
                         Soy Carolina Lunas Farah, Arquitecta, <br />{" "}
                         Programadora Full Stack JavaScript y Android
-                    </h4>
+                    </h2>
                 </section>
             </header>
             <main>
