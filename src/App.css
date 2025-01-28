@@ -565,9 +565,13 @@ footer i {
     }
 
     /* contact */
-    .contact i {
-        font-size: 45px;
+    .contact {
+      min-height: 20rem;
     }
+
+    /* .contact i {
+        font-size: 45px;
+    } */
 
     .contact p {
         width: 6rem;
