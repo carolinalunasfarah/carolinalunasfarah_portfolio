@@ -505,13 +505,13 @@ footer i {
 
     /* skills */
     .skills_slider {
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        padding-left: 2.5rem;
     }
 
     .skills {
         justify-content: space-evenly;
-        min-width: 25rem;
+        width: 20rem;
     }
 
     .skills h4 {
