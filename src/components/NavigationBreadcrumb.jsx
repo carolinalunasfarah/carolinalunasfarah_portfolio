@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 // react-bootstrap
 import Breadcrumb from "react-bootstrap/Breadcrumb";
 
+// schemas
+import { navigationBreadcrumbSchema } from "../schemas/navigationBreadcrumbSchema.js";
+
 const NavigationBreadcrumb = ({ paths }) => {
     return (
         <Breadcrumb className="navigation_breadcrumb">
@@ -18,5 +21,7 @@ const NavigationBreadcrumb = ({ paths }) => {
         </Breadcrumb>
     );
 };
+
+NavigationBreadcrumb.propTypes = navigationBreadcrumbSchema;
 
 export default NavigationBreadcrumb;

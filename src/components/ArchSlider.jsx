@@ -10,6 +10,7 @@ import { Navigation } from "swiper/modules";
 // components
 import NavigationBreadcrumb from "./NavigationBreadcrumb.jsx";
 import SkillsIcons from "./SkillsIcons.jsx";
+
 // data
 import { ArchitectureData } from "../data/ArchProjects.jsx";
 import { ArchSkills } from "../data/ArchSkills.jsx";
@@ -43,7 +44,7 @@ const ArchSlider = () => {
             </section>
             <section>
                 <section className="row skills_slider">
-                    <section className="col-5 col-md-5 col-lg-5 col-sm-12 flex_col ps-4">
+                    <section className="col-4 flex_col ps-4">
                         <SkillsIcons skillsData={ArchSkills} />
                         <button className="btn btn-secondary cursor-pointer btn_arch">
                             <a
@@ -59,7 +60,7 @@ const ArchSlider = () => {
                         loop={true}
                         navigation={true}
                         modules={[Navigation]}
-                        className="col-7 col-md-7 col-lg-7 col-sm-12 slider arch_body">
+                        className="col-7 slider arch_body">
                         {archData.map((archProject, index) => (
                             <SwiperSlide key={index}>
                                 {archProject.image_src && (

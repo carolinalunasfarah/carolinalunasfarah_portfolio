@@ -12,8 +12,16 @@ export const FsSkills = [
         icon_src: "/assets/icons/fs_skills/fs_skills_bootstrap.png",
     },
     {
+        name: "Tailwind CSS",
+        icon_src: "/assets/icons/fs_skills/fs_skills_tailwind.png",
+    },
+    {
         name: "Javascript",
         icon_src: "/assets/icons/fs_skills/fs_skills_javascript.png",
+    },
+    {
+        name: "TypeScript",
+        icon_src: "/assets/icons/fs_skills/fs_skills_typescript.png",
     },
     {
         name: "React JS",
@@ -30,14 +38,6 @@ export const FsSkills = [
     {
         name: "Firebase",
         icon_src: "/assets/icons/fs_skills/fs_skills_firebase.png",
-    },
-    {
-        name: "Android",
-        icon_src: "/assets/icons/fs_skills/fs_skills_android.png",
-    },
-    {
-        name: "Kotlin",
-        icon_src: "/assets/icons/fs_skills/fs_skills_kotlin.png",
     },
     {
         name: "Rest API",

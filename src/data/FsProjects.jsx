@@ -57,14 +57,7 @@ export const FullstackData = [
         description:
             "Aplicación SPA para seguimiento de cuidado de salud. Desarrollada en React con CSS vanilla, Bootstrap y gestión de usuarios y progreso con Firebase.",
         image_src: "/assets/img/dev-img/frontend-health-care.png",
+        website_url: "https://healthcare-followup.netlify.app/",
         rep_url: "https://github.com/carolinalunasfarah/healthcare-react-user",
-    },
-    {
-        name: "Mobile APP Reel Scout",
-        description:
-            "Aplicación Android de exploración y gestión de películas, permite ver detalles, marcar favoritos y consultar offline. Desarrollada con Kotlin, JetPack Compose, Room, Retrofit, Hilt y Coroutines.",
-        image_src: "/assets/img/dev-img/android-reel-scout.png",
-        rep_url: "https://github.com/carolinalunasfarah/Beca_Android-MovieApp",
-        video_src: "/assets/dev-media/reel-scout-demo.mp4",
     },
 ];
