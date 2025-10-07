@@ -4,7 +4,7 @@ const About = () => {
             <div className="about_row">
                 <section className="row about_section mb-4">
                     <article className="col-4 col-md-4 col-lg-4 col-sm-12 flex_col">
-                        <i class="bi bi-person"></i>
+                        <i className="bi bi-person"></i>
                     </article>
                     <article className="col-8 col-md-8 col-lg-8 col-sm-12">
                         <p className="about_text cursor_default mb-4">
@@ -19,27 +19,27 @@ const About = () => {
 
                 <section className="row about_section mb-4">
                     <article className="col-4 col-md-4 col-lg-4 col-sm-12 flex_col">
-                        <i class="bi bi-laptop"></i>
+                        <i className="bi bi-laptop"></i>
                     </article>
                     <article className="col-8 col-md-8 col-lg-8 col-sm-12">
                         <p className="about_text cursor_default mb-4">
                             <strong>
-                                Desarrolladora Full Stack JavaScript y Android
+                                Desarrolladora Full Stack JavaScript y
+                                TypeScript
                             </strong>{" "}
                             con formación en Academia Desafío Latam, y
-                            experiencia en Frontend, Backend y desarrollo de
-                            aplicaciones web. Como arquitecta, combino mi pasión
-                            por crear soluciones tecnológicas innovadoras y
-                            accesibles con una perspectiva única que integra
-                            pensamiento visual, habilidades analíticas y enfoque
-                            en la eficiencia.
+                            experiencia en Frontend y Backend. Como arquitecta,
+                            combino mi pasión por crear soluciones tecnológicas
+                            innovadoras y accesibles con una perspectiva única
+                            que integra pensamiento visual, habilidades
+                            analíticas y enfoque en la eficiencia.
                         </p>
                     </article>
                 </section>
 
                 <section className="row about_section t-4">
                     <article className="col-4 col-md-4 col-lg-4 col-sm-12 flex_col">
-                        <i class="bi bi-star"></i>
+                        <i className="bi bi-star"></i>
                     </article>
                     <article className="col-8 col-md-8 col-lg-8 col-sm-12 flex_col">
                         <p className="about_text cursor_default mb-4">
