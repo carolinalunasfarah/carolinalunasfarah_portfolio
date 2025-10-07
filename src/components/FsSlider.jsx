@@ -43,7 +43,7 @@ const FsSlider = () => {
                     ]}></NavigationBreadcrumb>
             </section>
             <section className="row skills_slider">
-                <section className="col-5 col-md-5 col-lg-5 flex_col ps-4">
+                <section className="col-4 flex_col ps-4">
                     <SkillsIcons skillsData={FsSkills} />
                 </section>
                 <Swiper
@@ -54,7 +54,7 @@ const FsSlider = () => {
                     }}
                     navigation={true}
                     modules={[Pagination, Navigation]}
-                    className="col-7 col-md-7 col-lg-7 col-sm-12 slider">
+                    className="col-7 slider">
                     {fsData.map((fsProject, index) => (
                         <SwiperSlide key={index}>
                             <section className="flex_col">

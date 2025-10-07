@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <>
             <nav>
-                <section>
+                <section className="navigation_title">
                     <NavLink className="active" to="/">
                         CAROLINA LUNAS FARAH
                     </NavLink>

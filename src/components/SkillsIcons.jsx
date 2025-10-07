@@ -8,10 +8,10 @@ const SkillsIcons = ({ skillsData }) => {
                 <strong>Stack Tecnológico</strong>
             </h4>
             {skillsData.map((skill, index) => (
-                <article className="col-6 col-md-6 col-lg-6 col-sm-6" key={index}>
+                <article className="col-6" key={index}>
                     <ul className="list-unstyled">
                         <li className="flex_col">
-                            <img
+                            <img className="skills_img"
                                 src={skill.icon_src}
                                 alt={skill.name}
                             />

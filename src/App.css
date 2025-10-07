@@ -362,6 +362,9 @@ footer i {
         flex-direction: column;
         padding: 0.5rem 0.8rem;
     }
+    .navigation_title {
+        padding-top:1rem;
+    }
 
     nav i {
         scale: 0.8;
@@ -386,7 +389,8 @@ footer i {
 
     header h2 {
         width: 20rem;
-        font-size: 14pt;
+        font-size: 12pt;
+        line-height: 1.8;
     }
 
     /* about */
@@ -456,6 +460,10 @@ footer i {
 
     .skills h4 {
         padding-top: 2rem;
+    }
+
+    .skills .skills_img {
+        height: 3rem;
     }
 
     /* slider */
