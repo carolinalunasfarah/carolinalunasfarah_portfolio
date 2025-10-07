@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Breadcrumb from "react-bootstrap/Breadcrumb";
 
 // schemas
-import { navigationBreadcrumbSchema } from "../schemas/navigationBreadcrumbschema.js";
+import { navigationBreadcrumbSchema } from "../schemas/navigationBreadcrumbSchema.js";
 
 const NavigationBreadcrumb = ({ paths }) => {
     return (
