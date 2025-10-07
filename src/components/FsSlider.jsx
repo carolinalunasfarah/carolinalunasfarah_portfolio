@@ -8,8 +8,8 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 
 // components
-import NavigationBreadcrumb from "./NavigationBreadcrumb/NavigationBreadcrumb.jsx";
-import { SkillsIcons } from "./SkillsIcons";
+import NavigationBreadcrumb from "./NavigationBreadcrumb.jsx";
+import SkillsIcons from "./SkillsIcons.jsx";
 // data
 import { FullstackData } from "../data/FsProjects.jsx";
 import { FsSkills } from "../data/FsSkills.jsx";

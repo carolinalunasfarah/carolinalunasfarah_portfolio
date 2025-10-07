@@ -1,4 +1,4 @@
-import { skillsDataSchema } from './schemas';
+import { skillsDataSchema } from '../schemas/skillsIconsSchema.js';
 
 const SkillsIcons = ({ skillsData }) => {
     return (
@@ -26,4 +26,4 @@ const SkillsIcons = ({ skillsData }) => {
 
 SkillsIcons.propTypes = skillsDataSchema;
 
-export { SkillsIcons };
+export default SkillsIcons;

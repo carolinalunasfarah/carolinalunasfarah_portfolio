@@ -1,4 +1,4 @@
-import NavigationBreadcrumb from "../components/NavigationBreadcrumb";
+import NavigationBreadcrumb from "../components/NavigationBreadcrumb.jsx";
 
 // data
 import CV from "/calf_cv_2025.pdf";

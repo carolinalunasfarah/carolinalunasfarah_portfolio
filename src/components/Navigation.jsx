@@ -12,14 +12,6 @@ const Navigation = () => {
                     </NavLink>
                 </section>
                 <section className="d-flex pt-4">
-                    {/* <ul className="list-unstyled nav_items">
-                        <li className="flex_col">
-                            <i className="bi bi-person-fill"></i>
-                            <NavLink className={activeClass} to="/about">
-                                Sobre mi
-                            </NavLink>
-                        </li>
-                    </ul> */}
                     <ul className="list-unstyled nav_items">
                         <li className="flex_col">
                             <i className="bi bi-folder-fill"></i>

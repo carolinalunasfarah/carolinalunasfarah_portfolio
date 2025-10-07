@@ -10,6 +10,7 @@ import { Navigation } from "swiper/modules";
 // components
 import NavigationBreadcrumb from "./NavigationBreadcrumb.jsx";
 import SkillsIcons from "./SkillsIcons.jsx";
+
 // data
 import { ArchitectureData } from "../data/ArchProjects.jsx";
 import { ArchSkills } from "../data/ArchSkills.jsx";

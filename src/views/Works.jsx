@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import NavigationBreadcrumb from "../components/NavigationBreadcrumb";
+import NavigationBreadcrumb from "../components/NavigationBreadcrumb.jsx";
 
 const Works = () => {
     const navigate = useNavigate();

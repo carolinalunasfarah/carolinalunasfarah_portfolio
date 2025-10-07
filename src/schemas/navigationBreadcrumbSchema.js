@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const pathsSchema = {
+const navigationBreadcrumbSchema = {
   paths: PropTypes.arrayOf(
     PropTypes.shape({
       text: PropTypes.string.isRequired,
@@ -9,4 +9,4 @@ const pathsSchema = {
   ).isRequired,
 };
 
-export { pathsSchema };
+export { navigationBreadcrumbSchema };
