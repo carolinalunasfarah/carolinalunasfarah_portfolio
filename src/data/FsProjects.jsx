@@ -60,4 +60,12 @@ export const FullstackData = [
         website_url: "https://healthcare-followup.netlify.app/",
         rep_url: "https://github.com/carolinalunasfarah/healthcare-react-user",
     },
+    {
+        name: "Mocha Tour Fullstack",
+        description:
+            "Aplicación SPA para registro de visitas de cafeterías. Desarrollada en React con TypeScript, Tailwind CSS y gestión de datos con Firebase Database.",
+        image_src: "/assets/img/dev-img/frontend-mocha-tour.png",
+        website_url: "https://mocha-tour.netlify.app/",
+        rep_url: "https://github.com/carolinalunasfarah/mocha-tour-guide",
+    },
 ];
