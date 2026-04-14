@@ -18,88 +18,84 @@ import { FsSkills } from "../data/FsSkills.jsx";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const FsSlider = () => {
-    const fsData = FullstackData;
+  const fsData = FullstackData;
 
-    const handleClick = (url) => {
-        window.open(url, "_blank");
-    };
+  const handleClick = (url) => {
+    window.open(url, "_blank");
+  };
 
-    return (
-        <>
-            <section className="px-5 pt-4">
-                <NavigationBreadcrumb
-                    paths={[
-                        {
-                            text: "Inicio",
-                            to: "/",
-                        },
-                        {
-                            text: "Trabajos",
-                            to: "/works",
-                        },
-                        {
-                            text: "Programación",
-                        },
-                    ]}></NavigationBreadcrumb>
-            </section>
-            <section className="row skills_slider">
-                <section className="col-4 flex_col ps-4">
-                    <SkillsIcons skillsData={FsSkills} />
+  return (
+    <>
+      <section className="px-5 pt-4">
+        <NavigationBreadcrumb
+          paths={[
+            {
+              text: "Inicio",
+              to: "/",
+            },
+            {
+              text: "Trabajos",
+              to: "/works",
+            },
+            {
+              text: "Programación",
+            },
+          ]}
+        ></NavigationBreadcrumb>
+      </section>
+      <section className="row skills_slider">
+        <section className="col-4 flex_col ps-4">
+          <SkillsIcons skillsData={FsSkills} />
+        </section>
+        <Swiper
+          slidesPerView={1}
+          loop={true}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Pagination, Navigation]}
+          className="col-7 slider"
+        >
+          {fsData.map((fsProject, index) => (
+            <SwiperSlide key={index}>
+              <section className="flex_col">
+                <LazyLoadImage
+                  src={fsProject.image_src}
+                  alt={fsProject.name}
+                  className="rounded-4"
+                />
+              </section>
+              <section className="py-3 slider_body">
+                <h4 className="cursor_default">{fsProject.name}</h4>
+                <p className="cursor_default">{fsProject.description}</p>
+                <section className="slider_links">
+                  {fsProject.website_url && (
+                    <button
+                      onClick={() => handleClick(fsProject.website_url)}
+                      className="btn btn-secondary cursor-pointer flex_col me-4"
+                      aria-label="Visitar página"
+                    >
+                      <span>Visita esta página</span>
+                    </button>
+                  )}
+                  {fsProject.rep_url && (
+                    <button
+                      onClick={() => handleClick(fsProject.rep_url)}
+                      className="btn btn-secondary cursor-pointer flex_col"
+                      aria-label="Visitar código"
+                    >
+                      <span>Ver código</span>
+                    </button>
+                  )}
                 </section>
-                <Swiper
-                    slidesPerView={1}
-                    loop={true}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    className="col-7 slider">
-                    {fsData.map((fsProject, index) => (
-                        <SwiperSlide key={index}>
-                            <section className="flex_col">
-                                <LazyLoadImage
-                                    src={fsProject.image_src}
-                                    alt={fsProject.name}
-                                    className="rounded-4"
-                                />
-                            </section>
-                            <section className="py-3 slider_body">
-                                <h4 className="cursor_default">
-                                    {fsProject.name}
-                                </h4>
-                                <p className="cursor_default">
-                                    {fsProject.description}
-                                </p>
-                                <section className="slider_links">
-                                    {fsProject.website_url && (
-                                        <button
-                                            onClick={() =>
-                                                handleClick(
-                                                    fsProject.website_url
-                                                )
-                                            }
-                                            className="btn btn-secondary cursor-pointer flex_col me-4"
-                                            aria-label="Visitar página">
-                                            <span>Visita esta página</span>
-                                        </button>
-                                    )}
-                                    <button
-                                        onClick={() =>
-                                            handleClick(fsProject.rep_url)
-                                        }
-                                        className="btn btn-secondary cursor-pointer flex_col"
-                                        aria-label="Visitar código">
-                                        <span>Ver código</span>
-                                    </button>
-                                </section>
-                            </section>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-            </section>
-        </>
-    );
+              </section>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </section>
+    </>
+  );
 };
 
 export default FsSlider;
